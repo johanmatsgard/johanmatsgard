@@ -1,22 +1,26 @@
-Hi, I'm Johan, CMO at [Elvy](https://www.elvyenergy.com/) in Stockholm.
+Hi, I'm Johan, Head of Marketing at [Elvy](https://www.elvyenergy.com/) in Stockholm.
 
 I run marketing and also build a fair amount of the tools we use. Mostly Next.js and Supabase on Vercel, written with Claude Code.
 
+### elvyenergy.com
+
+Elvy's website, and the biggest thing I've built so far. I started with a design system in Figma, mocked up the site from it, and then translated it into tokens and components with parameters that every page is built from. A lint rule bans any styling that isn't a token, so people and models alike stay inside the system.
+
+There's no CMS. Content is changed by talking to an AI coding agent, which edits the files, uploads images and opens a pull request with a preview. Since everything is plain code with strict rules, the site isn't tied to one tool, and when a better model comes out it can start working on the site right away. There are Swedish and English versions, and an onboarding flow that looks up your house from your address.
+
+The design system is public at [elvyenergy.com/design-system](https://www.elvyenergy.com/design-system). [How it's built](https://github.com/johanmatsgard/elvy-web-case-study)
+
 ### Apollo
 
-Our internal marketing platform at Elvy. It pulls in ad data from Meta, TikTok, Google and LinkedIn, gives recommendations the team marks as implemented, skipped or watching, and tracks progress against the real signed-customer count. It also refuses to compare channels on metrics they measure differently.
+Our internal marketing platform at Elvy. It pulls in ad data from Meta, TikTok, Google and LinkedIn, reads the company's own numbers from Firestore, our single source of truth, and gives recommendations the team marks as implemented, skipped or watching. It also refuses to compare channels on metrics they measure differently.
 
 It's designed as a ship's computer with a bridge, rooms and a log, mostly because a tool people use a lot should be nice to open. I develop it with separate agent loops for different kinds of work, and nothing reaches the team before I've checked it in a preflight environment.
 
 [How it works](https://github.com/johanmatsgard/apollo-case-study)
 
-### elvyenergy.com
-
-Elvy's website. I designed the system in Figma, mocked up the site, and then turned it into tokens and components the whole site is built from. There's no CMS: content is changed by talking to an AI coding agent, which opens a pull request with a preview, and a lint rule stops anyone, the model included, from inventing styles. The design system is public at [elvyenergy.com/design-system](https://www.elvyenergy.com/design-system). [How it's built](https://github.com/johanmatsgard/elvy-web-case-study)
-
 ### Design loop
 
-An autonomous design process I run in Claude Code for design work at Elvy. A few focused loops each look at one side of an experience, every run ends with a review card I steer from, and after two cycles it forks a new version built on a different idea. [How it works](https://github.com/johanmatsgard/design-loop)
+How I get from a design system to finished screens. Once the system is in place, I run loops in Claude Code that design and iterate solutions for what a page or app screen needs to achieve, using only parts from the system. Each run ends with a review card I steer from, and after two cycles it forks a new version built on a different idea. [How it works](https://github.com/johanmatsgard/design-loop)
 
 ### Huskartan
 
@@ -28,13 +32,15 @@ I wrote the spec for how Elvy handles new leads in HubSpot: contact within five 
 
 ### Block Kit
 
-Small Python prototype that geocodes addresses into blocks for addressed direct mail through PostNord.
+Python prototype that uses addresses and geocodes to plan addressed direct mail through PostNord.
 
 ### In progress
 
 A full read of our recorded sales calls. Sonnet goes through every call and Opus reviews what it found, with the aim of improving our ads, website and sales conversations.
 
-Testing TypeSafe's Jev on Swedish social media comments: [jev-svenska-triage](https://github.com/johanmatsgard/jev-svenska-triage). If it holds up, the next step is using it in Apollo to decide which model handles which task, and to check generated copy against our brand rules before it goes out.
+Testing TypeSafe's Jev on Swedish social media comments: [jev-svenska-triage](https://github.com/johanmatsgard/jev-svenska-triage). If it holds up, the next step is using it in Apollo to decide which model handles which task, and to pre-sort incoming leads.
+
+[LinkedIn](https://www.linkedin.com/in/johanmatsgard/)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johanmatsgard/johanmatsgard/output/github-snake-dark.svg" />
