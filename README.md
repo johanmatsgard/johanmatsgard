@@ -10,9 +10,13 @@ It's designed as a ship's computer with a bridge, rooms and a log, mostly becaus
 
 [How it works](https://github.com/johanmatsgard/apollo-case-study)
 
+### elvyenergy.com
+
+Elvy's website. I designed the system in Figma, mocked up the site, and then turned it into tokens and components the whole site is built from. There's no CMS: content is changed by talking to an AI coding agent, which opens a pull request with a preview, and a lint rule stops anyone, the model included, from inventing styles. The design system is public at [elvyenergy.com/design-system](https://www.elvyenergy.com/design-system). [How it's built](https://github.com/johanmatsgard/elvy-web-case-study)
+
 ### Design loop
 
-An autonomous design process I run in Claude Code on Elvy's customer portal. Five loops each look at one part of the experience, every run ends with a review card for me to steer from, and after two cycles it forks a new version built on a different idea. [How it works](https://github.com/johanmatsgard/design-loop)
+An autonomous design process I run in Claude Code for design work at Elvy. A few focused loops each look at one side of an experience, every run ends with a review card I steer from, and after two cycles it forks a new version built on a different idea. [How it works](https://github.com/johanmatsgard/design-loop)
 
 ### Huskartan
 
