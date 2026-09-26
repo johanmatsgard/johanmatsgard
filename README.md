@@ -4,7 +4,7 @@ I run marketing and also build a fair amount of the tools we use. Mostly Next.js
 
 ### elvyenergy.com
 
-Elvy's website, and the biggest thing I've built so far. I started with a design system in Figma, mocked up the site from it, and then translated it into tokens and components with parameters that every page is built from. A lint rule bans any styling that isn't a token, so people and models alike stay inside the system.
+Elvy's website, and the biggest project here. Made from a design system in Figma: the site was mocked up from it, then translated into tokens and components with parameters that every page is built from. A lint rule bans any styling that isn't a token, so people and models alike stay inside the system.
 
 There's no CMS. Content is changed by talking to an AI coding agent, which edits the files, uploads images and opens a pull request with a preview. Since everything is plain code with strict rules, the site isn't tied to one tool, and when a better model comes out it can start working on the site right away. There are Swedish and English versions, and an onboarding flow that looks up your house from your address.
 
