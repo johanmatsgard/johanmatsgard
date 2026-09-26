@@ -1,66 +1,28 @@
-```console
-$ whoami
-johan matsgård · cmo @ elvy · stockholm, se
-```
+Hi, I'm Johan, CMO at [Elvy](https://www.elvyenergy.com/) in Stockholm.
 
-I run marketing at [Elvy](https://www.elvyenergy.com/), a Swedish residential energy subscription company. I also build the software my team runs on. Most of it is written with Claude Code, deployed on Vercel, and reviewed by me before anyone else touches it.
+I run marketing and also build a fair amount of the tools we use. Mostly Next.js and Supabase on Vercel, written with Claude Code.
 
-```yaml
-# ~/.johan.yml
-role:        CMO @ Elvy
-builds_with: Claude Code
-ships_to:    Vercel
-stack:       [Next.js 16, Supabase, Postgres, Inngest, Anthropic SDK, Python]
-currently:   testing typed decisions with Jev (TypeSafe) in Swedish
-```
+### Apollo
 
----
+Our internal marketing platform at Elvy. It pulls in ad data from Meta, TikTok, Google and LinkedIn, gives recommendations the team marks as implemented, skipped or watching, and tracks progress against the real signed-customer count. It also refuses to compare channels on metrics they measure differently.
 
-### 🛰️ Apollo
-Elvy's internal AI marketing platform, designed as a ship's computer. The crew works from the bridge, every decision lands in the log, and clearance levels decide who can do what.
+It's designed as a ship's computer with a bridge, rooms and a log, mostly because a tool people use a lot should be nice to open. I develop it with separate agent loops for different kinds of work, and nothing reaches the team before I've checked it in a preflight environment.
 
-- Meta, TikTok, Google and LinkedIn ads data in one place, with a guardrail that blocks comparisons between channels that don't measure the same thing
-- A recommendations loop where every AI suggestion is marked **Implemented**, **Skipped** or **Watching**
-- Progress tied to Elvy's real signed-customer count, pulled from the source system with no manual inputs
-- Multi-brand auth with enforced 2FA (TOTP)
-- WebGL and 3D on the surfaces where the tool should feel alive
+[How it works](https://github.com/johanmatsgard/apollo-case-study)
 
-Developed through purpose-built agent loops I run as slash commands in Claude Code:
+### Huskartan
 
-```
-docs/loops/
-├── CORE.md
-├── SHIP.md       # /apollo-ship
-├── BRAIN.md      # /apollo-brain
-├── DATA.md       # /apollo-data
-├── BET.md        # /apollo-bet
-└── ADOPTION.md   # /apollo-adoption
-```
+Scores Swedish houses on heating, timing and solar potential using public data from SGU, Boverket and roof imagery. [How it works](https://github.com/johanmatsgard/huskartan-case-study)
 
-Nothing reaches the team without passing `preflight`, a permanent pre-launch environment on its own branch that only I promote to `main`.
+### Block Kit
 
-→ [Read the case study](https://github.com/johanmatsgard/apollo-case-study)
+Small Python prototype that geocodes addresses into blocks for addressed direct mail through PostNord.
 
-### 🗺️ Huskartan
-Scores Swedish homes on heating, timing and solar potential using public data (SGU well archive, Boverket energy declarations, roof and satellite data), so marketing reaches the right house at the right moment.
-→ [Case study](https://github.com/johanmatsgard/huskartan-case-study)
+### Right now
 
-### 📮 Block Kit
-Python geocoding prototype that turns address data into blocks for addressed direct mail through PostNord.
-
-### 🧪 Now
-Testing whether Jev (TypeSafe) can moderate Swedish social comments well enough to act without a human, and whether its confidence knows when it can't.
-→ [jev-svenska-triage](https://github.com/johanmatsgard/jev-svenska-triage)
-
----
-
-<p>
-  <img src="https://skillicons.dev/icons?i=nextjs,react,supabase,postgres,vercel,python,figma&theme=dark" alt="stack" />
-</p>
+Testing TypeSafe's Jev on Swedish social media comments: [jev-svenska-triage](https://github.com/johanmatsgard/jev-svenska-triage)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johanmatsgard/johanmatsgard/output/github-snake-dark.svg" />
   <img alt="contribution snake" src="https://raw.githubusercontent.com/johanmatsgard/johanmatsgard/output/github-snake.svg" />
 </picture>
-
-<sub>Marketer who ships.</sub>
