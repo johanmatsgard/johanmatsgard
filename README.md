@@ -18,6 +18,10 @@ It's designed as a ship's computer with a bridge, rooms and a log, mostly becaus
 
 [How it works](https://github.com/johanmatsgard/apollo-case-study)
 
+### vaken
+
+A quiet side pane for Claude Code Desktop, and my first public plugin. It shows what needs me across all my sessions, how much of my plan is left and when it resets, how full the context is, and what my agents are doing. It also stops risky steps like `git reset --hard` when Claude Code wouldn't ask first. It's built to look like part of the app, matching its spacing, type and colours, and it keeps all its data on your computer. [Install it](https://github.com/johanmatsgard/vaken)
+
 ### Design loop
 
 How I get from a design system to finished screens. Once the system is in place, I run loops in Claude Code that design and iterate solutions for what a page or app screen needs to achieve, using only parts from the system. Each run ends with a review card I steer from, and after two cycles it forks a new version built on a different idea. [How it works](https://github.com/johanmatsgard/design-loop)
