@@ -1,10 +1,10 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png"><img src="assets/banner-light.png" alt="Johan Matsgård. Brand, growth and the AI behind them. Head of Marketing at Elvy." width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png"><img src="assets/banner-light.png" alt="Johan Matsgård. Brand, growth and the AI behind them. C-level marketing leader at Elvy, 20 years in growth and brand as founder, CEO and advisor." width="100%"></picture>
 
 <p align="center"><a href="https://www.linkedin.com/in/johanmatsgard/">LinkedIn</a> · <a href="https://github.com/johanmatsgard/vaken">vaken</a> · <a href="https://www.elvyenergy.com/design-system">Elvy design system</a></p>
 
-**I build AI systems that run growth, and I lead them like an engineering team.** Most marketers brief engineers. I direct the agents that write the code, and I own the result. Since May: elvyenergy.com, now 4.5× the old site's conversion; Apollo, the AI marketing crew I build for our team; and vaken, open-source mission control for Claude Code, which I built. More than 6,300 commits from many agents running in parallel, planned and reviewed by me. I run brand and growth at Elvy in Stockholm.
+**I build AI systems that run growth, and I lead them like an engineering team.** I have led growth, brand and digital for 20 years. For twelve of them I was co-founder and Nordic CEO of Digital Fans, a growth and automation agency. Over the years I have worked with brands across food, telecom, media and consumer tech, like McDonald's, Siemens, Tele2 and TV4. I was also Director of Growth Strategy and Head of Digital Transformation at NORD DDB. Today I lead marketing at C-level at Elvy in Stockholm, and I have advised Nordic Equity Group and its portfolio companies since 2018.
 
-Before Elvy I spent many years on strategy, growth and digital transformation for global brands and fast-growing companies, B2B and B2C. I still advise founders and investors on growth.
+Most marketers brief engineers. I direct the agents that write the code, and I own the result. Since May: elvyenergy.com, now 4.5× the old site's conversion; Apollo, the AI marketing crew I build for our team; and vaken, open-source mission control for Claude Code. More than 6,300 commits from many agents running in parallel, planned and reviewed by me.
 
 ### Featured
 
@@ -35,7 +35,7 @@ Every change ships the same way: an agent edits the code, opens a pull request w
 - **One gate.** No change merges without lint, types, tests, contrast and a token check. Off-brand styling cannot slip in.
 - **Built for campaigns.** Wired to Apollo: a new campaign gets its own landing page fast, tracked from day one.
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/uplift-dark.webp"><img src="assets/uplift-light.webp" alt="Conversion rate: 4.5× the old site." width="100%"></picture>
+<img src="assets/uplift-dark.webp" alt="Conversion rate: 4.5× the old site." width="100%">
 
 <table>
 <tr>
@@ -166,8 +166,8 @@ I work like a small engineering lead. I set the goal, split it into tasks, and r
 
 <table>
 <tr>
-<td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/loop-dark.png"><img src="assets/loop-light.png" alt="Design loop: CONVERT, VOICE and CRAFT loops feed a review card"></picture><br><b>Design loop.</b> A design team that never stops. Claude Code loops design new screens from the design system, test them against a goal, and fork a fresh idea after two cycles. It is how new pages for the site get designed. <a href="https://github.com/johanmatsgard/design-loop">How it works</a></td>
-<td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/huskartan-dark.png"><img src="assets/huskartan-light.png" alt="Huskartan: public data sources feed a house score and a PDF report"></picture><br><b>Huskartan.</b> Built to score every house in Sweden. Public data tells which homes gain most from a new heating system, when they are likely to act, and how good the roof is for solar. One PDF report per address. <a href="https://github.com/johanmatsgard/huskartan-case-study">How it works</a></td>
+<td width="50%"><img src="assets/design-loop.webp" alt="A design team that never stops: CONVERT, VOICE and CRAFT loops feed a review card, then I steer or it forks a new idea"><br><b>Design loop.</b> A design team that never stops. Claude Code loops design new screens from the design system, test them against a goal, and fork a fresh idea after two cycles. It is how new pages for the site get designed. <a href="https://github.com/johanmatsgard/design-loop">How it works</a></td>
+<td width="50%"><img src="assets/huskartan.webp" alt="Huskartan scores every house in Sweden: ground, energy and roof data feed a score and one PDF report per address"><br><b>Huskartan.</b> Built to score every house in Sweden. Public data tells which homes gain most from a new heating system, when they are likely to act, and how good the roof is for solar. One PDF report per address. <a href="https://github.com/johanmatsgard/huskartan-case-study">How it works</a></td>
 </tr>
 </table>
 
