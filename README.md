@@ -1,52 +1,121 @@
-Hi, I'm Johan, Head of Marketing at [Elvy](https://www.elvyenergy.com/) in Stockholm.
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png"><img src="assets/banner-light.png" alt="Johan Matsgård: Head of Marketing who builds the software his team runs on" width="100%"></picture>
 
-I run marketing and also build a fair amount of the tools we use. Mostly Next.js and Supabase on Vercel, written with Claude Code.
+<p align="center">
+<a href="https://www.linkedin.com/in/johanmatsgard/"><img src="https://img.shields.io/badge/LinkedIn-Johan%20Matsg%C3%A5rd-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://github.com/johanmatsgard/vaken"><img src="https://img.shields.io/badge/New-vaken%20for%20Claude%20Code-D97757?style=for-the-badge" alt="vaken"></a>
+<a href="https://www.elvyenergy.com/design-system"><img src="https://img.shields.io/badge/Live-Elvy%20design%20system-9BBE3C?style=for-the-badge" alt="Elvy design system"></a>
+</p>
 
-### elvyenergy.com
+I run marketing at [Elvy](https://www.elvyenergy.com/) in Stockholm, and I build most of the tools we use. The website I rebuilt converts **3.2× better** than the old one, and it keeps climbing. Next.js and Supabase on Vercel, all of it written with Claude Code.
 
-Elvy's website, and the biggest project here. Made from a design system in Figma: the site was mocked up from it, then translated into tokens and components with parameters that every page is built from. A lint rule bans any styling that isn't a token, so people and models alike stay inside the system.
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.png"><img src="assets/stats-light.png" alt="6,300+ commits since May 2026, 1,700+ merged pull requests, 1,900+ test files, 3 products in daily use" width="100%"></picture>
 
-There's no CMS. Content is changed by talking to an AI coding agent, which edits the files, uploads images and opens a pull request with a preview. Since everything is plain code with strict rules, the site isn't tied to one tool, and when a better model comes out it can start working on the site right away. There are Swedish and English versions, and an onboarding flow that looks up your house from your address.
+<sub>Counted across vaken, Apollo and elvyenergy.com.</sub>
 
-The design system is public at [elvyenergy.com/design-system](https://www.elvyenergy.com/design-system). [How it's built](https://github.com/johanmatsgard/elvy-web-case-study)
+## 📈 elvyenergy.com: 3.2× the conversion
 
-### Apollo
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/uplift-dark.webp"><img src="assets/uplift-light.webp" alt="Conversion rate compared to the old site: about 2.3× in July, 2.8× in September, 3.2× in October. Paid traffic: 3.7×." width="100%"></picture>
 
-Our internal marketing platform at Elvy. It pulls in ad data from Meta, TikTok, Google and LinkedIn, reads the company's own numbers from Firestore, our single source of truth, and gives recommendations the team marks as implemented, skipped or watching. It also refuses to compare channels on metrics they measure differently.
+The new site more than doubled conversion in its first month. Then it kept climbing, one tested change at a time. Paid traffic now converts 3.7× better than the old site did. That is why the numbers above are so high: every commit is a try at getting one more visitor to ask for a quote.
 
-It's designed as a ship's computer with a bridge, rooms and a log, mostly because a tool people use a lot should be nice to open. I develop it with separate agent loops for different kinds of work, and nothing reaches the team before I've checked it in a preflight environment.
+<table>
+<tr>
+<td width="50%"><img src="assets/elvy-site.webp" alt="Scrolling through elvyenergy.com"><br><b>The site.</b> Swedish and English, with an onboarding flow that looks up your house from your address. <a href="https://www.elvyenergy.com/">Visit it</a></td>
+<td width="50%"><img src="assets/elvy-ds.webp" alt="The public Elvy design system: tokens and components"><br><b>The design system.</b> Public, and it renders the real components. <a href="https://www.elvyenergy.com/design-system">Open it</a></td>
+</tr>
+</table>
 
-[How it works](https://github.com/johanmatsgard/apollo-case-study)
+<details>
+<summary><b>How the site is built</b></summary>
+<br>
 
-### vaken
+- **Figma first.** The design system came first, then mockups built from it. Then it became code: tokens for colour, type, spacing, radii and shadows, and components that use only those tokens.
+- **Styling is never invented.** All tokens live in one file. A lint rule blocks any value that is not a token, so no person or model can slip in a one-off colour or margin.
+- **No CMS.** You ask an AI coding agent for a change and drop in the images. It edits the right file and opens a pull request with a preview link. Nothing goes live on its own.
+- **One gate for every change.** Formatting, lint, type check, tests, contrast and document structure, and a check that the generated CSS still matches the tokens.
+- **Measured honestly.** Brand-awareness traffic converts at about 0.2 %, so it would hide real gains. We read conversion with and without it, side by side.
 
-A quiet side pane for Claude Code Desktop, and my first public plugin. It shows what needs me across all my sessions, how much of my plan is left and when it resets, how full the context is, and what my agents are doing. It also stops risky steps like `git reset --hard` when Claude Code wouldn't ask first. It's built to look like part of the app, matching its spacing, type and colours, and it keeps all its data on your computer. [Install it](https://github.com/johanmatsgard/vaken)
+Stack: Next.js (App Router), React 19, TypeScript, Tailwind v4, next-intl, React Email, Vercel. [Full write-up](https://github.com/johanmatsgard/elvy-web-case-study)
+</details>
 
-### Design loop
+<details>
+<summary><b>What happens after the form</b></summary>
+<br>
 
-How I get from a design system to finished screens. Once the system is in place, I run loops in Claude Code that design and iterate solutions for what a page or app screen needs to achieve, using only parts from the system. Each run ends with a review card I steer from, and after two cycles it forks a new version built on a different idea. [How it works](https://github.com/johanmatsgard/design-loop)
+A lead is only worth something if sales calls back fast. I wrote the spec for how Elvy handles new leads in HubSpot:
 
-### Huskartan
+- Contact within five minutes.
+- A task queue, so sales always knows who to call next.
+- A 60-day follow-up flow for leads that go quiet.
+</details>
 
-Scores Swedish houses on heating, timing and solar potential using public data from SGU, Boverket and roof imagery. [How it works](https://github.com/johanmatsgard/huskartan-case-study)
+## ⭐ vaken: a calm side pane for Claude Code
 
-### Lead handling
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/vaken-hero-dark.webp"><img src="assets/vaken-hero-light.webp" alt="vaken stops git reset --hard in Claude Code Desktop and waits for your OK" width="100%"></picture>
 
-I wrote the spec for how Elvy handles new leads in HubSpot: contact within five minutes, a task queue that tells sales what to do next, and a 60-day reactivation flow for leads that go quiet. Our tech team took it from there.
+My first public plugin. It shows what needs you across all your sessions, how much of your plan is left, how full the context is, and what your agents do. It stops risky steps like `git reset --hard` when Claude Code would not ask first. It looks like part of the app, and keeps all its data on your computer.
 
-### Block Kit
+<table>
+<tr>
+<td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/vaken-needs-dark.webp"><img src="assets/vaken-needs-light.webp" alt="Needs you"></picture><br><b>Needs you.</b> Every session that waits for you, in one list.</td>
+<td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/vaken-limits-dark.webp"><img src="assets/vaken-limits-light.webp" alt="Plan limits"></picture><br><b>Plan limits.</b> What is left, and when it resets.</td>
+</tr>
+<tr>
+<td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/vaken-context-dark.webp"><img src="assets/vaken-context-light.webp" alt="Context"></picture><br><b>Context.</b> How full the chat is, and a good moment to compact.</td>
+<td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/vaken-agents-dark.webp"><img src="assets/vaken-agents-light.webp" alt="Agents"></picture><br><b>Agents.</b> What every helper does, and what it costs.</td>
+</tr>
+</table>
 
-Python prototype that uses addresses and geocodes to plan addressed direct mail through PostNord.
+<details>
+<summary><b>How it's built</b></summary>
+<br>
 
-### In progress
+- **Native first.** Every size and colour is measured from Claude Code Desktop in points and kept in one tokens file. A check fails the build on any raw number.
+- **Safety guards.** It reads each tool call before it runs. Deletes, force-pushes and wipes stop and wait for your OK when Claude Code would not ask first.
+- **Private by design.** No account, no server. Everything stays in a local file on your computer.
+- **Tested in CI.** Every pull request runs the checks on Mac and Windows before it can merge.
+</details>
 
-A full read of our recorded sales calls. Sonnet goes through every call and Opus reviews what it found, with the aim of improving our ads, website and sales conversations.
+**[Install vaken](https://github.com/johanmatsgard/vaken)** · [Guide](https://github.com/johanmatsgard/vaken/blob/main/docs/guide.md)
 
-Testing TypeSafe's Jev on Swedish social media comments: [jev-svenska-triage](https://github.com/johanmatsgard/jev-svenska-triage). If it holds up, the next step is using it in Apollo to decide which model handles which task, and to pre-sort incoming leads.
+## 🚀 Apollo
 
-[LinkedIn](https://www.linkedin.com/in/johanmatsgard/)
+<img src="assets/apollo.webp" alt="Apollo running on demo data" width="100%">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johanmatsgard/johanmatsgard/output/github-snake-dark.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/johanmatsgard/johanmatsgard/output/github-snake.svg" />
-</picture>
+Elvy's internal marketing platform, designed as a ship's computer. It pulls Meta, TikTok, Google and LinkedIn into one view next to the company's real numbers, and gives recommendations the team marks as implemented, skipped or watching. <sub>Demo data only.</sub>
+
+<details>
+<summary><b>How it works</b></summary>
+<br>
+
+- **One source of truth.** Signed customers and other real numbers come straight from Firestore. Nobody types numbers in by hand.
+- **No unfair rankings.** Meta, TikTok, Google and LinkedIn count conversions in different ways. Apollo will not rank them against each other on those numbers.
+- **Every recommendation needs a verdict.** Implemented, skipped or watching. Otherwise ideas pile up and nobody remembers what we did.
+- **Writes in Elvy's voice.** Drafts press releases and debate articles.
+- **Built in loops.** Claude Code runs one loop per kind of work (ship, data, brain, adoption). Changes land on a preflight branch first, and I merge to main myself.
+
+Stack: Next.js 16, Supabase (EU), Inngest, Anthropic SDK, Vercel. [Full write-up](https://github.com/johanmatsgard/apollo-case-study)
+</details>
+
+## 🧪 Methods and models
+
+<table>
+<tr>
+<td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/loop-dark.png"><img src="assets/loop-light.png" alt="Design loop: CONVERT, VOICE and CRAFT loops feed a review card"></picture><br><b>Design loop.</b> How the site's conversion keeps climbing. Claude Code loops design new screens from the design system, then fork a new idea after two cycles. <a href="https://github.com/johanmatsgard/design-loop">How it works</a></td>
+<td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/huskartan-dark.png"><img src="assets/huskartan-light.png" alt="Huskartan: public data sources feed a house score and a PDF report"></picture><br><b>Huskartan.</b> Scores Swedish houses on heating, timing and solar from public data, with one PDF report per address. <a href="https://github.com/johanmatsgard/huskartan-case-study">How it works</a></td>
+</tr>
+</table>
+
+<details>
+<summary><b>More on the design loop</b></summary>
+<br>
+
+A design system gives you the parts. The loop decides what a page should do with them. It starts from a goal, like getting a customer to book a visit, and designs answers using only parts from the system.
+
+- **CONVERT** gets the key action done. **VOICE** checks copy and numbers. **CRAFT** adds the details that make it feel distinct.
+- Each run ends with a review card: what changed, why, and what to try next. I read it and steer.
+- After two cycles the version is frozen, and the loop must try a new idea, not a restyle.
+- Judged on a phone first. Mock data only.
+</details>
+
+**Now:** a full read of our recorded sales calls (Sonnet reads, Opus reviews), and [testing Jev on Swedish comments](https://github.com/johanmatsgard/jev-svenska-triage).
