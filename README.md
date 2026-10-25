@@ -10,9 +10,9 @@ Before Elvy I spent many years on strategy, growth and digital transformation fo
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="#elvyenergycom-45-the-conversion"><img src="assets/featured-elvy.webp" alt="elvyenergy.com: 4.5× the conversion"></a><br><b>elvyenergy.com</b><br>A new site on a new design system, then one tested change at a time. Now 4.5× the old site's conversion. <a href="#elvyenergycom-45-the-conversion">See the work</a></td>
-<td width="33%" valign="top"><a href="#apollo-ai-that-takes-elvys-marketing-further"><img src="assets/featured-apollo.webp" alt="Apollo: a small team with the reach of a big one"></a><br><b>Apollo</b><br>Elvy's AI marketing crew. It listens, makes, sells and learns, so the team can go further. <a href="#apollo-ai-that-takes-elvys-marketing-further">See Apollo</a></td>
-<td width="33%" valign="top"><a href="#vaken-mission-control-for-claude-code"><img src="assets/featured-vaken.webp" alt="vaken: mission control for Claude Code"></a><br><b>vaken</b><br>Open source. Run ten Claude Code sessions and still know what needs you. <a href="#vaken-mission-control-for-claude-code">See vaken</a></td>
+<td width="33%" valign="top"><a href="#elvyenergycom-45-the-conversion"><img src="assets/featured-elvy.webp" alt="elvyenergy.com: 4.5× the conversion"></a><br><b>elvyenergy.com</b><br>I run the site end to end, one tested change at a time. Now 4.5× the old site's conversion. <a href="#elvyenergycom-45-the-conversion">See the work</a></td>
+<td width="33%" valign="top"><a href="#apollo-ai-that-takes-elvys-marketing-further"><img src="assets/featured-apollo.webp" alt="Apollo: a small team with the reach of a big one"></a><br><b>Apollo</b><br>Elvy's AI marketing crew, designed and built by me. About 6× more output per person, by our estimate. <a href="#apollo-ai-that-takes-elvys-marketing-further">See Apollo</a></td>
+<td width="33%" valign="top"><a href="#vaken-mission-control-for-claude-code"><img src="assets/featured-vaken.webp" alt="vaken: mission control for Claude Code"></a><br><b>vaken</b><br>My open-source mission control for Claude Code. About 70% lighter long sessions, and a stop before risky steps. <a href="#vaken-mission-control-for-claude-code">See vaken</a></td>
 </tr>
 </table>
 
