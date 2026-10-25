@@ -51,6 +51,8 @@ Stack: Next.js (App Router), React 19, TypeScript, Tailwind v4, next-intl, React
 
 <img src="assets/apollo-hero.webp" alt="A small team. The reach of a big one. The Apollo ship flies from Earth toward the Moon." width="100%">
 
+<img src="assets/apollo-proof.webp" alt="Minutes to answer a customer. Every meeting ends as tasks. Every week more areas move to autopilot." width="100%">
+
 **Apollo takes the routine work, so the team spends its time on ideas, bold tests and customers. Every week it carries a little more.**
 
 Apollo started as my own project: one marketing lead with the output of a full in-house team plus a performance agency. Now a team builds it with me. The aim: automate everything that can be automated, so every hour the team has left goes where it gives the most lift.
@@ -105,6 +107,8 @@ Stack: Next.js 16, Supabase (EU), Inngest, Anthropic SDK, Vercel. [Full write-up
 ## vaken: mission control for Claude Code
 
 <img src="assets/vaken-hero.webp" alt="vaken: stays awake, so you don't have to. It stops git reset --hard and waits for your OK." width="100%">
+
+<img src="assets/vaken-proof.webp" alt="75% less context on large, long-running sessions. Risky commands wait for your OK. 10 sessions, one calm pane." width="100%">
 
 Run ten Claude Code sessions and still know exactly where each one stands. vaken is my first public plugin. It looks like part of the app, stops risky steps like `git reset --hard` when Claude Code would not ask first, and keeps all its data on your computer.
 
