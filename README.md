@@ -1,28 +1,30 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png"><img src="assets/banner-light.png" alt="Johan Matsgård. Brand, growth and the AI behind them. Head of Marketing at Elvy, 20 years in growth and brand as founder and CEO." width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png"><img src="assets/banner-light.png" alt="Johan Matsgård. Brand, growth and the AI behind them. Head of Marketing at Elvy, 20 years in growth and brand, 12 as agency co-founder and CEO." width="100%"></picture>
 
 <p align="center"><a href="https://www.linkedin.com/in/johanmatsgard/">LinkedIn</a> · <a href="https://github.com/johanmatsgard/vaken">vaken</a> · <a href="https://www.elvyenergy.com/design-system">Elvy design system</a></p>
 
 **I lead growth and brand, and I build the AI that scales it.** Today I am Head of Marketing at Elvy in Stockholm, part of its leadership team, where I lead a small team. Since I joined in March, leads from partners and bought lists fell from 85% to 6% of the total, and leads from our own channels per day grew about 9×. Before that, I co-founded Digital Fans and led it as Nordic CEO for twelve years. We combined with NORD DDB to become a group of 300+ people across the four Nordic countries, where I also led growth strategy and digital transformation. Along the way my teams and I have worked with McDonald's, Vattenfall, Klarna, Nordea, SKF, Volkswagen, Telenor, Verifone, MTG, ABBA The Museum and UN Women, among them some of the region's award-winning campaigns.
 
-I direct the AI agents that write the code, and I own the result. Since May I have shipped three systems: elvyenergy.com, which converts 4.5× better than the old site; Apollo, the AI marketing crew I build for our team; and vaken, open-source mission control for Claude Code. That is more than 6,300 commits, each one planned and reviewed by me.
+**What I lead.** Brand, growth and demand generation at Elvy: positioning, every acquisition channel, partnerships, and the customer journey from first visit to signed contract. I own the growth numbers on the leadership team.
+
+I direct the AI agents that write the code, and I own the result. Since May I have shipped three systems: elvyenergy.com, which converts 4.5× better than the old site; Apollo, the AI marketing crew I build for our team; and vaken, open-source mission control for Claude Code. I set the plan, agents build, a gate checks every change, and nothing ships without my sign-off.
 
 ### Featured
 
 <table>
 <tr>
-<td width="33%"><a href="#elvyenergycom-a-website-run-as-code"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/featured-elvy.webp"><img src="assets/featured-elvy-light.webp" alt="elvyenergy.com: 4.5× the conversion"></picture></a></td>
+<td width="33%"><a href="#elvyenergycom-a-website-marketing-runs-without-a-developer-queue"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/featured-elvy.webp"><img src="assets/featured-elvy-light.webp" alt="elvyenergy.com: 4.5× the conversion"></picture></a></td>
 <td width="33%"><a href="#apollo-a-small-team-with-the-reach-of-a-big-one"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/featured-apollo.webp"><img src="assets/featured-apollo-light.webp" alt="Apollo: a small team with the reach of a big one"></picture></a></td>
 <td width="33%"><a href="#vaken-mission-control-for-claude-code"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/featured-vaken.webp"><img src="assets/featured-vaken-light.webp" alt="vaken: mission control for Claude Code"></picture></a></td>
 </tr>
 </table>
 
-## elvyenergy.com: a website run as code
+## elvyenergy.com: a website marketing runs without a developer queue
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/elvy-hero.webp"><img src="assets/elvy-hero-light.webp" alt="elvyenergy.com: a website, run as code. A new site on a new design system, then one tested change at a time." width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/elvy-hero.webp"><img src="assets/elvy-hero-light.webp" alt="elvyenergy.com: marketing ships the site itself" width="100%"></picture>
 
 The new site, built on a new design system, went live on 10 July. I have run it end to end since: pages, SEO, conversion, content, tracking, and the links to Apollo and our sales tools.
 
-Every change ships the same way: an agent edits the code, opens a pull request with a preview, and a gate checks it. Conversion more than doubled in the first month, then kept climbing.
+Every change ships the same way: an agent edits the code, opens a pull request with a preview, and a gate checks it.
 
 - **No CMS.** Every page is code, managed through Claude Code. Marketing moves without waiting in a developer queue.
 - **One journey.** Onboarding looks up the house from the address, so visitors start with their own home. The path runs on to the offer and the Elvy app.
@@ -59,21 +61,21 @@ Stack: Next.js (App Router), React 19, TypeScript, Tailwind v4, next-intl, React
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/apollo-hero.webp"><img src="assets/apollo-hero-light.webp" alt="A small team. The reach of a big one. The Apollo ship flies from Earth toward the Moon." width="100%"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/apollo-proof.webp"><img src="assets/apollo-proof-light.webp" alt="About 6× more output per person by our own estimate, spots things first, better calls, more reach." width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/apollo-proof.webp"><img src="assets/apollo-proof-light.webp" alt="Takes the routine, so people spend their time on ideas. Spots things first, better calls, more reach." width="100%"></picture>
 
-**Apollo makes a small team work like a big one: about 6× more output per person, by our own estimate.**
+**Apollo takes the routine, so a small team can do the work of a big one.**
 
-I build the tools our team needs, and Apollo is the biggest. It spots the angle before anyone asks, answers every customer in minutes, and reacts while a moment still matters. Every ad channel sits next to signed customers, so each call rests on real numbers, and every recommendation gets a verdict. As Elvy grows, the same team covers more ground, so we hire for ideas, not for routine. People keep the ideas, the bold tests and the customers.
+I build the tools our team needs, and Apollo is the biggest. It spots the angle before anyone asks, makes sure no customer question waits, and reacts while a moment still matters. Every ad channel sits next to signed customers, so each call rests on real numbers, and every recommendation gets a verdict. As Elvy grows, the same team covers more ground, so we hire for ideas, not for routine. People keep the ideas, the bold tests and the customers.
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/apollo-climb.webp"><img src="assets/apollo-climb-light.webp" alt="Every week, more of marketing flies itself. Areas move from Apollo watches, to Apollo drafts, to Apollo runs it." width="100%"></picture>
 
 ### 1. It listens
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/apollo-act1.webp"><img src="assets/apollo-act1-light.webp" alt="It listens. Spots the angle before anyone else. Answers every customer, in minutes. Turns every sales call into better marketing. Every meeting ends with a plan." width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/apollo-act1.webp"><img src="assets/apollo-act1-light.webp" alt="It listens. Spots the angle before anyone else. No customer question waits. Turns every sales call into better marketing. Every meeting ends with a plan." width="100%"></picture>
 
 ### 2. It makes and sells
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/apollo-act2.webp"><img src="assets/apollo-act2-light.webp" alt="It makes and sells. Makes the ads while the moment is hot. Writes the pages people search for. Spends like an agency that never sleeps. Follows up every lead at the right moment." width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/apollo-act2.webp"><img src="assets/apollo-act2-light.webp" alt="It makes and sells. Makes the ads while the moment is hot. Writes the pages people search for. Keeps every ad channel working, day and night. Follows up every lead at the right moment." width="100%"></picture>
 
 ### 3. It tests and learns
 
@@ -81,7 +83,7 @@ I build the tools our team needs, and Apollo is the biggest. It spots the angle 
 
 ### 4. The team goes further
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/apollo-act4.webp"><img src="assets/apollo-act4-light.webp" alt="The team goes further. Hours back for the work that matters: Apollo takes the routine; people take the bets. Plans everyone's day around the goal. Tells leadership the story, every Thursday." width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/apollo-act4.webp"><img src="assets/apollo-act4-light.webp" alt="The team goes further. Hours back for the work that matters: Apollo takes the routine; people take the bets. Keeps every week pointed at the goal. Tells leadership the story, every Thursday." width="100%"></picture>
 
 Marketing is the first part of Elvy where we let AI take us this far. We approach every other part of Elvy the same way.
 
@@ -95,7 +97,7 @@ Marketing is the first part of Elvy where we let AI take us this far. We approac
 - Built in Claude Code loops (ship, data, brain, adoption) that I orchestrate. Every change is reviewed by hand before it ships.
 - The new look: a calm night sky with Earth and the Moon, built to feel like a ship's computer.
 
-Stack: Next.js 16, Supabase (EU), Inngest, Anthropic SDK, Vercel. [Full write-up](https://github.com/johanmatsgard/apollo-case-study)
+Stack: Next.js 16, Supabase (EU), Firestore (company data), Inngest, Anthropic SDK, Vercel. [Full write-up](https://github.com/johanmatsgard/apollo-case-study)
 </details>
 
 ## vaken: mission control for Claude Code
@@ -106,7 +108,7 @@ Stack: Next.js 16, Supabase (EU), Inngest, Anthropic SDK, Vercel. [Full write-up
 
 <sub>How we measured "about 70% lighter": the median of 361 compactions of sessions larger than 150,000 tokens in my own Claude Code use, October 2026. Context before the compaction against the first request after it.</sub>
 
-Run ten Claude Code sessions and still know exactly where each one stands. vaken stops risky commands like `git reset --hard` and waits for your OK when Claude Code would not ask first, with undo. It compacts long sessions at a calm moment, so the context ends up about 70% smaller. I designed and built it alone with agents I plan and review, and released it as open source: 160+ releases in its first two weeks. No server, no telemetry.
+Run ten Claude Code sessions and still know exactly where each one stands. vaken stops risky commands like `git reset --hard` and waits for your OK when Claude Code would not ask first, with undo. It compacts long sessions at a calm moment, so the context ends up about 70% smaller. I designed and built it alone with agents I plan and review and released it as open source, with tests on Mac and Windows on every change. No server, no telemetry.
 
 <table>
 <tr><td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/vaken-needs.webp"><img src="assets/vaken-needs-light.webp" alt="Know what needs you, at a glance"></picture></td><td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/vaken-limits.webp"><img src="assets/vaken-limits-light.webp" alt="Never hit your limit by surprise"></picture></td></tr>
@@ -122,7 +124,7 @@ Run ten Claude Code sessions and still know exactly where each one stands. vaken
 - **Safety guards.** It reads each tool call before it runs. Deletes, force-pushes and wipes stop and wait for your OK when Claude Code would not ask first.
 - **Private by design.** No account, no server. Everything stays in a local file on your computer.
 - **Tested in CI.** Every pull request runs the checks on Mac and Windows before it can merge.
-- **Built by one person.** More than 1,800 commits, made with Claude Code agents that I plan, run and review.
+- **Built by one person**, with Claude Code agents that I plan, run and review.
 </details>
 
 Install it in ten seconds:
@@ -138,12 +140,12 @@ claude plugin install vaken@vaken
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/how-i-work.webp"><img src="assets/how-i-work-light.webp" alt="One person. Many agents. One gate. I plan, agents build in parallel across elvyenergy.com, Apollo, vaken and the design loop, a gate checks every change, and I review and ship." width="100%"></picture>
 
-I work like a small engineering lead. I set the goal, split it into tasks, and run many Claude Code agents side by side. A gate checks every change, and I read each one before it ships. The same method built elvyenergy.com, Apollo and vaken.
+I lead the way I always have: set the goal, make the team's work count, and take away the routine. Today part of that team is AI agents. I split the goal into tasks and run many Claude Code agents side by side. A gate checks every change, and I read each one before it ships. The same method built elvyenergy.com, Apollo and vaken.
 
 <table>
 <tr>
 <td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/design-loop.webp"><img src="assets/design-loop-light.webp" alt="A design team that never stops: CONVERT, VOICE and CRAFT loops feed a review card, then I steer or it forks a new idea"></picture><br><b>Design loop.</b> A design team that never stops. Claude Code loops design new screens from the design system, test them against a goal, and fork a fresh idea after two cycles. It is how new pages for the site get designed. <a href="https://github.com/johanmatsgard/design-loop">How it works</a></td>
-<td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/huskartan.webp"><img src="assets/huskartan-light.webp" alt="Huskartan scores every house in Sweden: ground, energy and roof data feed a score and one PDF report per address"></picture><br><b>Huskartan.</b> Built to score every house in Sweden. Public data tells which homes gain most from a new heating system, when they are likely to act, and how good the roof is for solar. One PDF report per address. <a href="https://github.com/johanmatsgard/huskartan-case-study">How it works</a></td>
+<td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/huskartan.webp"><img src="assets/huskartan-light.webp" alt="Huskartan: building, energy and roof data show which kinds of homes gain most, with one PDF report per address"></picture><br><b>Huskartan.</b> Shows which kinds of Swedish homes gain most from a new heating system or solar, from public building, energy and roof data. One PDF report per address. <a href="https://github.com/johanmatsgard/huskartan-case-study">How it works</a></td>
 </tr>
 </table>
 
@@ -161,4 +163,4 @@ A design system gives you the parts. The loop decides what a page should do with
 
 **Now:** reading every recorded sales call to learn what makes people sign, and [testing an AI moderator on 100 Swedish social media comments](https://github.com/johanmatsgard/jev-svenska-triage).
 
-I bring 20 years of brand and growth leadership, and a team that ships like an engineering team. [Message me on LinkedIn](https://www.linkedin.com/in/johanmatsgard/).
+Happy to compare notes on AI in marketing teams. [LinkedIn](https://www.linkedin.com/in/johanmatsgard/)
