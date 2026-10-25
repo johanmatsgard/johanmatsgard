@@ -10,11 +10,15 @@ Before Elvy I spent many years on strategy, growth and digital transformation fo
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="#elvyenergycom-45-the-conversion-run-as-code"><img src="assets/featured-elvy.webp" alt="elvyenergy.com: 4.5× the conversion"></a><br><b>elvyenergy.com</b><br>Every page is code. Every change is tested. Now 4.5× the old site's conversion. <a href="#elvyenergycom-45-the-conversion-run-as-code">See the work</a></td>
-<td width="33%" valign="top"><a href="#apollo-a-small-team-with-the-reach-of-a-big-one"><img src="assets/featured-apollo.webp" alt="Apollo: a small team with the reach of a big one"></a><br><b>Apollo</b><br>Elvy's AI marketing crew. About 6× more output per person, our own estimate. <a href="#apollo-a-small-team-with-the-reach-of-a-big-one">See Apollo</a></td>
-<td width="33%" valign="top"><a href="#vaken-mission-control-for-claude-code"><img src="assets/featured-vaken.webp" alt="vaken: mission control for Claude Code"></a><br><b>vaken</b><br>Open-source mission control for Claude Code. Long-session context about 70% smaller, and a stop before risky commands. <a href="#vaken-mission-control-for-claude-code">See vaken</a></td>
+<td width="33%"><a href="#elvyenergycom-45-the-conversion-run-as-code"><img src="assets/featured-elvy.webp" alt="elvyenergy.com: 4.5× the conversion"></a></td>
+<td width="33%"><a href="#apollo-a-small-team-with-the-reach-of-a-big-one"><img src="assets/featured-apollo.webp" alt="Apollo: a small team with the reach of a big one"></a></td>
+<td width="33%"><a href="#vaken-mission-control-for-claude-code"><img src="assets/featured-vaken.webp" alt="vaken: mission control for Claude Code"></a></td>
 </tr>
 </table>
+
+- **[elvyenergy.com](#elvyenergycom-45-the-conversion-run-as-code)**: Every page is code. Every change is tested. Now 4.5× the old site's conversion.
+- **[Apollo](#apollo-a-small-team-with-the-reach-of-a-big-one)**: Elvy's AI marketing crew. About 6× more output per person, our own estimate.
+- **[vaken](#vaken-mission-control-for-claude-code)**: Open-source mission control for Claude Code. Long-session context about 70% smaller, and a stop before risky commands.
 
 ## elvyenergy.com: 4.5× the conversion, run as code
 
