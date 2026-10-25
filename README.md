@@ -41,7 +41,7 @@ Conversion more than doubled in the first month. Then it kept climbing, one test
 
 <img src="assets/elvy-offer.webp" alt="Coming soon: your price, in minutes. Answer a few questions and an indicative offer for the full package appears." width="100%">
 
-**Coming soon: your price, in minutes.** Everyone wonders what Elvy would cost them. Soon they will see it at once. A visitor answers a few questions, we look up the house from the address, and an indicative offer for heat pump, solar and battery appears. Sales still calls to check the details. Next step: the whole way to a signed contract, online.
+**Coming soon: your price, in minutes.** An auto-offer flow in the onboarding. After that, the whole way to a signed contract, online.
 
 <details>
 <summary><b>How the site is built and run</b></summary>
