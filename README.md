@@ -1,10 +1,19 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png"><img src="assets/banner-light.png" alt="Johan Matsgård: Head of Marketing who builds the software his team runs on" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png"><img src="assets/banner-light.png" alt="Johan Matsgård. Brand, growth and the AI behind them. Head of Marketing at Elvy." width="100%"></picture>
 
 <p align="center"><a href="https://www.linkedin.com/in/johanmatsgard/">LinkedIn</a> · <a href="https://github.com/johanmatsgard/vaken">vaken</a> · <a href="https://www.elvyenergy.com/design-system">Elvy design system</a></p>
 
-I run marketing at [Elvy](https://www.elvyenergy.com/) in Stockholm: the brand, and everything we say to customers, from ads and the website to the follow-up after a lead. I'm a marketer, not an engineer. Still, since May I've made 6,300+ commits and shipped three products in daily use, all of it with Claude Code.
+I lead marketing at [Elvy](https://www.elvyenergy.com/) in Stockholm. Before Elvy I spent many years on strategy, growth and digital transformation for global brands and fast-growing companies, B2B and B2C. I still advise founders and investors on growth.
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.png"><img src="assets/stats-light.png" alt="6,300+ commits since May 2026, 1,700+ merged pull requests, 1,900+ test files, 3 products in daily use. Counted across vaken, Apollo and elvyenergy.com." width="100%"></picture>
+At Elvy I own the brand and everything we say to customers: ads, partnerships, the website, content and the follow-up after a lead. I use AI to take each part further than a normal team could, and I build much of it myself with Claude Code: 6,300+ commits since May, three products in daily use.
+
+### Latest
+
+<table>
+<tr>
+<td width="50%"><img src="assets/latest-apollo.png" alt="Apollo's new start page: Earth, the Moon and a flight path"><br><b>Apollo has a new look.</b> Our AI marketing platform, now built by a team. <a href="#apollo-ai-that-takes-elvys-marketing-further">See Apollo</a></td>
+<td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/latest-vaken-dark.png"><img src="assets/latest-vaken-light.png" alt="vaken in Claude Code Desktop"></picture><br><b>vaken is out.</b> My open-source plugin for Claude Code. <a href="#vaken-mission-control-for-claude-code">See vaken</a></td>
+</tr>
+</table>
 
 ## elvyenergy.com: 3.2× the conversion
 
@@ -35,14 +44,15 @@ Conversion more than doubled in the first month. Then it kept climbing, one test
 Stack: Next.js (App Router), React 19, TypeScript, Tailwind v4, next-intl, React Email, Vercel. [Full write-up](https://github.com/johanmatsgard/elvy-web-case-study)
 </details>
 
-## Apollo: one marketer, a whole team's output
+## Apollo: AI that takes Elvy's marketing further
 
-**An AI marketing team in one tool. Built to give one marketing lead the output of a full in-house team plus a performance agency.**
+<img src="assets/apollo-door.webp" alt="Apollo's start page: Earth turns, a flight path draws to the Moon" width="100%">
 
-<img src="assets/apollo.webp" alt="Apollo, the AI marketing platform, running on demo data" width="100%">
-<sub>Recorded on a demo brand with invented data.</sub>
+**Every channel, every customer number and every decision in one place. Each morning it reads what changed, explains why, and says what to do next.**
 
-Apollo is the ship's computer for a crew of one. Every channel, every customer number and every decision live in one place. Each morning it reads what changed, explains why, and says what to do next. It drafts the work in the brand's own voice, and it learns from every call you make. You decide. Apollo does the rest of the thinking. In daily use by Elvy's marketing team.
+Apollo started as a one-person project: a way to give one marketing lead the output of a full in-house team plus a performance agency. It worked well enough that it now has a team, and we build it together. It drafts the work in the brand's own voice and learns from every call we make. People decide; Apollo does the rest of the thinking.
+
+Marketing is the first part of Elvy where we let AI take us this far. We approach every other part of Elvy the same way.
 
 <details>
 <summary><b>Where it's headed</b></summary>
@@ -63,6 +73,7 @@ Apollo is the ship's computer for a crew of one. Every channel, every customer n
 - Channels that count conversions differently are never ranked against each other.
 - Every recommendation gets a verdict: implemented, skipped or watching. Nothing is forgotten.
 - Built in Claude Code loops (ship, data, brain, adoption). Changes land on a preflight branch first and are merged by hand.
+- The new look: a calm night sky with Earth and the Moon, built to feel like a ship's computer.
 
 Stack: Next.js 16, Supabase (EU), Inngest, Anthropic SDK, Vercel. [Full write-up](https://github.com/johanmatsgard/apollo-case-study)
 </details>
@@ -94,6 +105,10 @@ claude plugin install vaken@vaken
 
 [See vaken on GitHub](https://github.com/johanmatsgard/vaken) · [Guide](https://github.com/johanmatsgard/vaken/blob/main/docs/guide.md)
 
+## Also at Elvy
+
+**Our customer app.** I helped design and build the Elvy app, and from here I take a much bigger part in it. I also lifted the website's design system into a kit, so the customer portal shares the site's look.
+
 ## How I work
 
 <table>
@@ -117,4 +132,4 @@ A design system gives you the parts. The loop decides what a page should do with
 
 **Now:** reading every recorded sales call to learn what makes people sign (Sonnet reads, Opus reviews), and [testing an AI moderator on 100 Swedish social media comments](https://github.com/johanmatsgard/jev-svenska-triage).
 
-One marketer, a whole team's output. Hiring for that, or building it? [Message me on LinkedIn](https://www.linkedin.com/in/johanmatsgard/).
+Want to talk growth, brand or AI in a company? [Message me on LinkedIn](https://www.linkedin.com/in/johanmatsgard/).
