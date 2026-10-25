@@ -26,6 +26,10 @@ The new site went live on 10 July, built on a new design system: made in Figma, 
 
 Conversion more than doubled in the first month. Then it kept climbing, one tested change at a time. Today the site converts 4.5× better than the old one did, with brand-awareness campaigns left out.
 
+- **Built for campaigns.** The site is wired to Apollo and our other tools, so a new campaign gets its own landing page fast, with tracking from day one.
+- **Speed to lead.** Every new lead gets a call within five minutes, and quiet leads get a planned follow-up.
+- **Always on brand.** Every page is built from one design system, so new pages look right the first time.
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/uplift-dark.webp"><img src="assets/uplift-light.webp" alt="Conversion rate: 4.5× the old site, with brand-awareness campaigns left out." width="100%"></picture>
 
 <table>
@@ -34,6 +38,10 @@ Conversion more than doubled in the first month. Then it kept climbing, one test
 <td width="50%"><img src="assets/elvy-ds.webp" alt="The public Elvy design system: tokens and components"><br><b>The design system.</b> Public, and it renders the real components. <a href="https://www.elvyenergy.com/design-system">Open it</a></td>
 </tr>
 </table>
+
+<img src="assets/elvy-offer.webp" alt="Coming soon: your price, in minutes. Answer a few questions and an indicative offer for the full package appears." width="100%">
+
+**Coming soon: your price, in minutes.** Everyone wonders what Elvy would cost them. Soon they will see it at once. A visitor answers a few questions, we look up the house from the address, and an indicative offer for heat pump, solar and battery appears. Sales still calls to check the details. Next step: the whole way to a signed contract, online.
 
 <details>
 <summary><b>How the site is built and run</b></summary>
@@ -116,7 +124,11 @@ Stack: Next.js 16, Supabase (EU), Inngest, Anthropic SDK, Vercel. [Full write-up
 
 Run ten Claude Code sessions and still know exactly where each one stands. vaken is my first public plugin. It looks like part of the app, stops risky steps like `git reset --hard` when Claude Code would not ask first, and keeps all its data on your computer.
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/vaken-grid-dark.webp"><img src="assets/vaken-grid-light.webp" alt="vaken panels: Needs you, Plan limits, Context, Agents" width="100%"></picture>
+<table>
+<tr><td width="50%"><img src="assets/vaken-needs.webp" alt="Know what needs you, at a glance"></td><td width="50%"><img src="assets/vaken-limits.webp" alt="Never hit your limit by surprise"></td></tr>
+<tr><td width="50%"><img src="assets/vaken-context.webp" alt="Long sessions, about 70% lighter"></td><td width="50%"><img src="assets/vaken-safety.webp" alt="A stop before a risky step"></td></tr>
+<tr><td width="50%"><img src="assets/vaken-agents.webp" alt="Every helper, in one list"></td><td width="50%"><img src="assets/vaken-trust.webp" alt="Done means done: proof checks and away mode"></td></tr>
+</table>
 
 <details>
 <summary><b>How it's built</b></summary>
