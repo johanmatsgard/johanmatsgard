@@ -2,26 +2,29 @@
 
 <p align="center"><a href="https://www.linkedin.com/in/johanmatsgard/">LinkedIn</a> · <a href="https://github.com/johanmatsgard/vaken">vaken</a> · <a href="https://www.elvyenergy.com/design-system">Elvy design system</a></p>
 
-I lead marketing at [Elvy](https://www.elvyenergy.com/) in Stockholm. Before Elvy I spent many years on strategy, growth and digital transformation for global brands and fast-growing companies, B2B and B2C. I still advise founders and investors on growth.
+**I'm a marketer who builds.** I run brand and growth at [Elvy](https://www.elvyenergy.com/) in Stockholm, and I build the AI that takes it further. Since May: a website that converts 4.5× better than the old one, Apollo, an AI marketing crew that carries more of the work every week, and vaken, an open-source plugin for Claude Code. More than 6,300 commits, all made with Claude Code, by someone who is not an engineer.
 
-At Elvy I own the brand and everything we say to customers: ads, partnerships, the website, content and the follow-up after a lead. I use AI to take each part further than a normal team could, and I build much of it myself with Claude Code: 6,300+ commits since May, three products in daily use.
+Before Elvy I spent many years on strategy, growth and digital transformation for global brands and fast-growing companies, B2B and B2C. I still advise founders and investors on growth.
 
-### Latest
+### Featured
 
 <table>
 <tr>
-<td width="50%"><img src="assets/latest-apollo.png" alt="Apollo: an AI marketing team in one tool"><br><b>Apollo, the full picture.</b> Our AI marketing platform, now built by a team. <a href="#apollo-ai-that-takes-elvys-marketing-further">See what it does</a></td>
-<td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/latest-vaken-dark.png"><img src="assets/latest-vaken-light.png" alt="vaken in Claude Code Desktop"></picture><br><b>vaken is out.</b> My open-source plugin for Claude Code. <a href="#vaken-mission-control-for-claude-code">See vaken</a></td>
+<td width="33%" valign="top"><a href="#elvyenergycom-45-the-conversion"><img src="assets/featured-elvy.webp" alt="elvyenergy.com: 4.5× the conversion"></a><br><b>elvyenergy.com</b><br>A new site on a new design system, then one tested change at a time. Now 4.5× the old site's conversion. <a href="#elvyenergycom-45-the-conversion">See the work</a></td>
+<td width="33%" valign="top"><a href="#apollo-ai-that-takes-elvys-marketing-further"><img src="assets/featured-apollo.webp" alt="Apollo: a small team with the reach of a big one"></a><br><b>Apollo</b><br>Elvy's AI marketing crew. It listens, makes, sells and learns, so the team can go further. <a href="#apollo-ai-that-takes-elvys-marketing-further">See Apollo</a></td>
+<td width="33%" valign="top"><a href="#vaken-mission-control-for-claude-code"><img src="assets/featured-vaken.webp" alt="vaken: mission control for Claude Code"></a><br><b>vaken</b><br>Open source. Run ten Claude Code sessions and still know what needs you. <a href="#vaken-mission-control-for-claude-code">See vaken</a></td>
 </tr>
 </table>
 
 ## elvyenergy.com: 4.5× the conversion
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/uplift-dark.webp"><img src="assets/uplift-light.webp" alt="Conversion rate: 4.5× the old site, with brand-awareness campaigns left out." width="100%"></picture>
+<img src="assets/elvy-hero.webp" alt="elvyenergy.com: 4.5× the conversion. A new site on a new design system, then one tested change at a time." width="100%">
 
 The new site went live on 10 July, built on a new design system: made in Figma, then turned into tokens, components and code. Since launch I have run it. New pages and designs, SEO, conversion work, content, tracking, and the connections to our sales tools.
 
 Conversion more than doubled in the first month. Then it kept climbing, one tested change at a time. Today the site converts 4.5× better than the old one did, with brand-awareness campaigns left out.
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/uplift-dark.webp"><img src="assets/uplift-light.webp" alt="Conversion rate: 4.5× the old site, with brand-awareness campaigns left out." width="100%"></picture>
 
 <table>
 <tr>
@@ -46,33 +49,43 @@ Stack: Next.js (App Router), React 19, TypeScript, Tailwind v4, next-intl, React
 
 ## Apollo: AI that takes Elvy's marketing further
 
-<img src="assets/apollo-hero.webp" alt="Apollo's Bridge: Earth, the Moon and the flight path to the year's goal. While you slept, Apollo answered comments, put ads live and read sales calls." width="100%">
+<img src="assets/apollo-hero.webp" alt="A small team. The reach of a big one. The Apollo ship flies from Earth toward the Moon." width="100%">
 
-**An AI marketing team in one tool. It reads the business, makes the work, answers every customer and learns from every decision. People steer; Apollo flies.**
+**Apollo takes the routine work, so the team spends its time on ideas, bold tests and customers. Every week it carries a little more.**
 
-Apollo started as my own project: one marketing lead with the output of a full in-house team plus a performance agency. It now has a team, and we build it together. The goal is simple: automate everything that can be automated, and make every decision that is left a smarter one.
+Apollo started as my own project: one marketing lead with the output of a full in-house team plus a performance agency. Now a team builds it with me. The aim: automate everything that can be automated, so every hour the team has left goes where it gives the most lift.
 
-<img src="assets/apollo-autopilot.webp" alt="40 areas of marketing. 31 run on autopilot, 6 are drafted for a person to approve, 3 are led by people." width="100%">
+<img src="assets/apollo-climb.webp" alt="Every week, more of marketing flies itself. Areas move from Apollo watches, to Apollo drafts, to Apollo runs it." width="100%">
 
-### What Apollo does
+### 1. It listens
 
 <table>
-<tr><td width="50%"><img src="assets/apollo-replies.webp" alt="Answers every customer"><br><b>Answers every customer.</b> Comments and DMs on Instagram, Facebook and TikTok get a reply in the brand's voice within minutes. Each reply passes a voice check first.</td><td width="50%"><img src="assets/apollo-moments.webp" alt="Makes ads in the moment"><br><b>Makes ads in the moment.</b> When the news moves, Apollo builds the ads from what worked before and publishes them on Meta, TikTok and Google.</td></tr>
-<tr><td width="50%"><img src="assets/apollo-brain.webp" alt="One brain behind everything"><br><b>One brain behind everything.</b> Meetings, sales calls, the CRM, the ad platforms, the website and every decision feed one memory. Every answer shows what it drew on.</td><td width="50%"><img src="assets/apollo-calls-learn.webp" alt="Learns from every sales call"><br><b>Learns from every sales call.</b> It finds why people wait or sign, and writes the answer into the site, the sales script and the next ads.</td></tr>
-<tr><td width="50%"><img src="assets/apollo-track-record.webp" alt="Keeps score on itself"><br><b>Keeps score on itself.</b> Every call Apollo makes is graded when its date comes. A wrong call teaches the next one.</td><td width="50%"><img src="assets/apollo-lenses.webp" alt="Four minds on every big decision"><br><b>Four minds on every big decision.</b> Strategy, channels, creative and a critic weigh in, with a pre-mortem and the best case against.</td></tr>
-<tr><td width="50%"><img src="assets/apollo-my-day.webp" alt="Plans every person's day"><br><b>Plans every person's day.</b> Tasks, meetings and focus time land in the right slot, with the thing that moves the goal first.</td><td width="50%"><img src="assets/apollo-talk-task.webp" alt="Say it, and it is planned"><br><b>Say it, and it is planned.</b> Type or say one sentence. Apollo picks the day, the time, the owner and the project, and finds room in the week.</td></tr>
-<tr><td width="50%"><img src="assets/apollo-forecast.webp" alt="Shows the future before you spend"><br><b>Shows the future before you spend.</b> Move a lever and watch the landing date move, from your own numbers.</td><td width="50%"><img src="assets/apollo-teach-ads.webp" alt="Teaches the ad platforms"><br><b>Teaches the ad platforms.</b> Offers and signings flow back to Meta, Google and TikTok on their own, so the ads chase buyers, not clicks.</td></tr>
-<tr><td width="50%"><img src="assets/apollo-brief.webp" alt="Writes the leadership brief"><br><b>Writes the leadership brief.</b> Every Thursday, one page: numbers against the target, what moved, what is blocked and what we need.</td><td width="50%"><img src="assets/apollo-tv.webp" alt="Puts the mission on the wall"><br><b>Puts the mission on the wall.</b> The office TV shows this month against the last and the next milestone. Counts only, no names.</td></tr>
+<tr><td width="50%"><img src="assets/apollo-market.webp" alt="Spots the angle before anyone else"></td><td width="50%"><img src="assets/apollo-replies.webp" alt="Answers every customer, in minutes"></td></tr>
+<tr><td width="50%"><img src="assets/apollo-sales.webp" alt="Turns every sales call into better marketing"></td><td width="50%"><img src="assets/apollo-meet.webp" alt="Every meeting ends with a plan"></td></tr>
 </table>
-<sub>Drawn with Apollo's own design system. All figures and names are made up.</sub>
 
-<details>
-<summary><b>Inside the app: Bridge, Work, Studio, Calls, Comms and Brain</b></summary>
-<br>
+### 2. It makes and sells
 
-<img src="assets/apollo-rooms.png" alt="Six Apollo rooms: Bridge, Work, Studio, Calls, Comms and Brain" width="100%">
-<sub>The real interface. Numbers changed and names removed, so no figure here is Elvy's.</sub>
-</details>
+<table>
+<tr><td width="50%"><img src="assets/apollo-studio.webp" alt="Makes the ads while the moment is hot"></td><td width="50%"><img src="assets/apollo-web.webp" alt="Writes the pages people search for"></td></tr>
+<tr><td width="50%"><img src="assets/apollo-ads.webp" alt="Spends like an agency that never sleeps"></td><td width="50%"><img src="assets/apollo-follow.webp" alt="Follows up every lead at the right moment"></td></tr>
+</table>
+
+### 3. It tests and learns
+
+<table>
+<tr><td width="50%"><img src="assets/apollo-tests.webp" alt="Always has the next test running"></td><td width="50%"><img src="assets/apollo-calls.webp" alt="Makes the call, then keeps score"></td></tr>
+<tr><td width="50%"><img src="assets/apollo-brain.webp" alt="One memory for the whole company"></td><td width="50%"><img src="assets/apollo-bridge.webp" alt="Flies the company toward one number"></td></tr>
+</table>
+
+### 4. The team goes further
+
+<img src="assets/apollo-team.webp" alt="Hours back for the work that matters. Apollo takes the routine; people take the bets." width="100%">
+
+<table>
+<tr><td width="50%"><img src="assets/apollo-work.webp" alt="Plans everyone's day around the goal"></td><td width="50%"><img src="assets/apollo-brief.webp" alt="Tells leadership the story, every Thursday"></td></tr>
+</table>
+
 
 Marketing is the first part of Elvy where we let AI take us this far. We approach every other part of Elvy the same way.
 
@@ -91,7 +104,7 @@ Stack: Next.js 16, Supabase (EU), Inngest, Anthropic SDK, Vercel. [Full write-up
 
 ## vaken: mission control for Claude Code
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/vaken-hero-dark.webp"><img src="assets/vaken-hero-light.webp" alt="vaken stops git reset --hard in Claude Code Desktop and waits for your OK" width="100%"></picture>
+<img src="assets/vaken-hero.webp" alt="vaken: stays awake, so you don't have to. It stops git reset --hard and waits for your OK." width="100%">
 
 Run ten Claude Code sessions and still know exactly where each one stands. vaken is my first public plugin. It looks like part of the app, stops risky steps like `git reset --hard` when Claude Code would not ask first, and keeps all its data on your computer.
 
