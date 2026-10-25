@@ -46,7 +46,8 @@ Stack: Next.js (App Router), React 19, TypeScript, Tailwind v4, next-intl, React
 
 ## Apollo: AI that takes Elvy's marketing further
 
-<img src="assets/apollo-door.webp" alt="Apollo's start page: Earth turns, a flight path draws to the Moon" width="100%">
+<img src="assets/apollo-inside.webp" alt="Inside Apollo: the Bridge with pace, what to do first, cost of a customer and the path from visit to customer" width="100%">
+<sub>The real interface. Numbers changed and names removed, so no figure here is Elvy's.</sub>
 
 **Every channel, every customer number and every decision in one place. Each morning it reads what changed, explains why, and says what to do next.**
 
