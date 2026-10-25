@@ -2,9 +2,9 @@
 
 <p align="center"><a href="https://www.linkedin.com/in/johanmatsgard/">LinkedIn</a> · <a href="https://github.com/johanmatsgard/vaken">vaken</a> · <a href="https://www.elvyenergy.com/design-system">Elvy design system</a></p>
 
-**I build AI systems that run growth, and I lead them like an engineering team.** I have led growth, brand and digital for 20 years. For twelve of them I was co-founder and Nordic CEO of Digital Fans, a growth and automation agency. With Digital Fans and NORD DDB I have worked with brands in food, energy, cars, telecom, media and payments, like McDonald's, Vattenfall, Volkswagen, Telenor, MTG and Verifone. I was also Director of Growth Strategy and Head of Digital Transformation at NORD DDB. Today I lead marketing at C-level at Elvy in Stockholm, and I have advised Nordic Equity Group and its portfolio companies since 2018.
+**20 years in growth and brand. Now I build the AI that runs it.** Today I lead marketing at C-level at Elvy in Stockholm. Before that, I co-founded Digital Fans and ran it as Nordic CEO for twelve years, and led growth strategy and digital transformation at NORD DDB. Along the way my teams and I have worked with McDonald's, Vattenfall, Klarna, Nordea, Volkswagen and Telenor. Since 2018 I have also advised Nordic Equity Group and its portfolio companies.
 
-Most marketers brief engineers. I direct the agents that write the code, and I own the result. Since May: elvyenergy.com, now 4.5× the old site's conversion; Apollo, the AI marketing crew I build for our team; and vaken, open-source mission control for Claude Code. More than 6,300 commits from many agents running in parallel, planned and reviewed by me.
+Most marketers brief engineers. I direct the AI agents that write the code, and I own the result. Since May I have shipped three systems: elvyenergy.com, which converts 4.5× better than the old site; Apollo, the AI marketing crew I build for our team; and vaken, open-source mission control for Claude Code. That is more than 6,300 commits, each one planned and reviewed by me.
 
 ### Featured
 
