@@ -15,13 +15,13 @@ At Elvy I own the brand and everything we say to customers: ads, partnerships, t
 </tr>
 </table>
 
-## elvyenergy.com: 3.2× the conversion
+## elvyenergy.com: 4.5× the conversion
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/uplift-dark.webp"><img src="assets/uplift-light.webp" alt="Conversion rate compared to the old site: about 2.3× in July, 2.8× in September, 3.2× in October. Paid traffic: 3.7×." width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/uplift-dark.webp"><img src="assets/uplift-light.webp" alt="Conversion rate: 4.5× the old site, with brand-awareness campaigns left out." width="100%"></picture>
 
 The new site went live on 10 July, built on a new design system: made in Figma, then turned into tokens, components and code. Since launch I have run it. New pages and designs, SEO, conversion work, content, tracking, and the connections to our sales tools.
 
-Conversion more than doubled in the first month. Then it kept climbing, one tested change at a time. Paid traffic now converts 3.7× better than the old site did.
+Conversion more than doubled in the first month. Then it kept climbing, one tested change at a time. Today the site converts 4.5× better than the old one did, with brand-awareness campaigns left out.
 
 <table>
 <tr>
