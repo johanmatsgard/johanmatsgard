@@ -10,7 +10,7 @@ At Elvy I own the brand and everything we say to customers: ads, partnerships, t
 
 <table>
 <tr>
-<td width="50%"><img src="assets/latest-apollo.png" alt="Apollo's new start page: Earth, the Moon and a flight path"><br><b>Apollo has a new look.</b> Our AI marketing platform, now built by a team. <a href="#apollo-ai-that-takes-elvys-marketing-further">See all six rooms</a></td>
+<td width="50%"><img src="assets/latest-apollo.png" alt="Apollo: an AI marketing team in one tool"><br><b>Apollo, the full picture.</b> Our AI marketing platform, now built by a team. <a href="#apollo-ai-that-takes-elvys-marketing-further">See what it does</a></td>
 <td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/latest-vaken-dark.png"><img src="assets/latest-vaken-light.png" alt="vaken in Claude Code Desktop"></picture><br><b>vaken is out.</b> My open-source plugin for Claude Code. <a href="#vaken-mission-control-for-claude-code">See vaken</a></td>
 </tr>
 </table>
@@ -46,21 +46,31 @@ Stack: Next.js (App Router), React 19, TypeScript, Tailwind v4, next-intl, React
 
 ## Apollo: AI that takes Elvy's marketing further
 
-<img src="assets/apollo-door.webp" alt="Apollo's start page: Earth turns, a flight path draws to the Moon" width="100%">
+<img src="assets/apollo-hero.webp" alt="Apollo: an AI marketing team in one tool. While you slept it drafted replies, made ads, read sales calls, flagged a rising cost and planned the week." width="100%">
 
 **An AI marketing team in one tool. Every channel, every customer number and every decision in one place.**
 
-Apollo started as my own project: one marketing lead with the output of a full in-house team plus a performance agency. It now has a team, and we build it together. It reads the business every morning, plans the work, writes in the brand's voice, answers customers and learns from every call we make. People decide; Apollo does the rest of the thinking.
+Apollo started as my own project: one marketing lead with the output of a full in-house team plus a performance agency. It now has a team, and we build it together. People decide; Apollo does the rest of the thinking.
+
+### What Apollo does
+
+<table>
+<tr><td width="50%"><img src="assets/apollo-f-morning.png" alt="Reads the business every morning"><br><b>Reads the business every morning.</b> Says what changed overnight, why, and what to do first.</td><td width="50%"><img src="assets/apollo-f-comments.png" alt="Answers every comment"><br><b>Answers every comment.</b> Reads TikTok, Instagram and Facebook and drafts each reply in the brand's voice. One tap to send.</td></tr>
+<tr><td width="50%"><img src="assets/apollo-f-ads.png" alt="Makes ads in the moment"><br><b>Makes ads in the moment.</b> Spots the news that matters to customers, writes the ad and posts it to Meta, TikTok and Google.</td><td width="50%"><img src="assets/apollo-f-brain.png" alt="One brain, connected to everything"><br><b>One brain, connected to everything.</b> HubSpot, the ad platforms, the website, meetings, sales calls, Slack and Drive feed one memory.</td></tr>
+<tr><td width="50%"><img src="assets/apollo-f-calls-sales.png" alt="Listens to every sales call"><br><b>Listens to every sales call.</b> Learns why people sign or wait, and writes the answers into the site and the sales script.</td><td width="50%"><img src="assets/apollo-f-decide.png" alt="Brings decisions with evidence"><br><b>Brings decisions with evidence.</b> A critic attacks every proposal first. Every call gets a verdict, and Apollo keeps score.</td></tr>
+<tr><td width="50%"><img src="assets/apollo-f-feedback.png" alt="Teaches the ad platforms"><br><b>Teaches the ad platforms.</b> Tells Google, Meta and TikTok which clicks became customers, so they find more like them.</td><td width="50%"><img src="assets/apollo-f-funnel.png" alt="Follows every customer to the roof"><br><b>Follows every customer to the roof.</b> From the first click to signed and installed, measured against the year's goal.</td></tr>
+<tr><td width="50%"><img src="assets/apollo-f-tasks.png" alt="Turns a sentence into a task"><br><b>Turns a sentence into a task.</b> Say it in Slack or in Apollo. It picks the day, the owner and the room, and plans the week by load.</td><td width="50%"><img src="assets/apollo-f-whatif.png" alt="Answers what-if before you spend"><br><b>Answers what-if before you spend.</b> Move a slider and see the customers it brings, from your own numbers.</td></tr>
+<tr><td width="50%"><img src="assets/apollo-f-brief.png" alt="Writes the weekly brief"><br><b>Writes the weekly brief.</b> Numbers against the target, what moved, what is blocked and next week, ready for leadership.</td><td width="50%"><img src="assets/apollo-f-tv.png" alt="Puts the week on the office TV"><br><b>Puts the week on the office TV.</b> Leads, signings and installs, live for the whole company.</td></tr>
+</table>
+<sub>Pictures show dummy data.</sub>
+
+<details>
+<summary><b>Inside the app: Bridge, Work, Studio, Calls, Comms and Brain</b></summary>
+<br>
 
 <img src="assets/apollo-rooms.png" alt="Six Apollo rooms: Bridge, Work, Studio, Calls, Comms and Brain" width="100%">
 <sub>The real interface. Numbers changed and names removed, so no figure here is Elvy's.</sub>
-
-- **Bridge.** The whole business at a glance: pace to the year's goal, cost of a customer, and the path from visit to signed customer. Each morning it says what changed, why, and what to do first.
-- **Work.** Plans the week and ranks every task by what moves the goal, for each person on the team.
-- **Studio.** Writes ads, posts and emails in the brand's voice, learns new voice rules, and follows every draft until it runs as a live ad.
-- **Calls.** Brings the decisions to you with the evidence, across Meta, Google, TikTok and the website. Every call gets a verdict, and Apollo keeps a track record of what worked.
-- **Comms.** Listens to every comment on TikTok, Instagram and Facebook, drafts the replies, and makes sure no question goes unanswered.
-- **Brain.** One memory behind every room: what it was told, every decision, and what worked. Meetings and sales calls feed it too, so its advice is built on what customers actually say.
+</details>
 
 Marketing is the first part of Elvy where we let AI take us this far. We approach every other part of Elvy the same way.
 
