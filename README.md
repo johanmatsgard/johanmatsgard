@@ -10,7 +10,7 @@ At Elvy I own the brand and everything we say to customers: ads, partnerships, t
 
 <table>
 <tr>
-<td width="50%"><img src="assets/latest-apollo.png" alt="Apollo's new start page: Earth, the Moon and a flight path"><br><b>Apollo has a new look.</b> Our AI marketing platform, now built by a team. <a href="#apollo-ai-that-takes-elvys-marketing-further">See Apollo</a></td>
+<td width="50%"><img src="assets/latest-apollo.png" alt="Apollo's new start page: Earth, the Moon and a flight path"><br><b>Apollo has a new look.</b> Our AI marketing platform, now built by a team. <a href="#apollo-ai-that-takes-elvys-marketing-further">See all six rooms</a></td>
 <td width="50%"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/latest-vaken-dark.png"><img src="assets/latest-vaken-light.png" alt="vaken in Claude Code Desktop"></picture><br><b>vaken is out.</b> My open-source plugin for Claude Code. <a href="#vaken-mission-control-for-claude-code">See vaken</a></td>
 </tr>
 </table>
@@ -46,25 +46,23 @@ Stack: Next.js (App Router), React 19, TypeScript, Tailwind v4, next-intl, React
 
 ## Apollo: AI that takes Elvy's marketing further
 
-<img src="assets/apollo-inside.webp" alt="Inside Apollo: the Bridge with pace, what to do first, cost of a customer and the path from visit to customer" width="100%">
+<img src="assets/apollo-door.webp" alt="Apollo's start page: Earth turns, a flight path draws to the Moon" width="100%">
+
+**An AI marketing team in one tool. Every channel, every customer number and every decision in one place.**
+
+Apollo started as my own project: one marketing lead with the output of a full in-house team plus a performance agency. It now has a team, and we build it together. It reads the business every morning, plans the work, writes in the brand's voice, answers customers and learns from every call we make. People decide; Apollo does the rest of the thinking.
+
+<img src="assets/apollo-rooms.png" alt="Six Apollo rooms: Bridge, Work, Studio, Calls, Comms and Brain" width="100%">
 <sub>The real interface. Numbers changed and names removed, so no figure here is Elvy's.</sub>
 
-**Every channel, every customer number and every decision in one place. Each morning it reads what changed, explains why, and says what to do next.**
-
-Apollo started as a one-person project: a way to give one marketing lead the output of a full in-house team plus a performance agency. It worked well enough that it now has a team, and we build it together. It drafts the work in the brand's own voice and learns from every call we make. People decide; Apollo does the rest of the thinking.
+- **Bridge.** The whole business at a glance: pace to the year's goal, cost of a customer, and the path from visit to signed customer. Each morning it says what changed, why, and what to do first.
+- **Work.** Plans the week and ranks every task by what moves the goal, for each person on the team.
+- **Studio.** Writes ads, posts and emails in the brand's voice, learns new voice rules, and follows every draft until it runs as a live ad.
+- **Calls.** Brings the decisions to you with the evidence, across Meta, Google, TikTok and the website. Every call gets a verdict, and Apollo keeps a track record of what worked.
+- **Comms.** Listens to every comment on TikTok, Instagram and Facebook, drafts the replies, and makes sure no question goes unanswered.
+- **Brain.** One memory behind every room: what it was told, every decision, and what worked. Meetings and sales calls feed it too, so its advice is built on what customers actually say.
 
 Marketing is the first part of Elvy where we let AI take us this far. We approach every other part of Elvy the same way.
-
-<details>
-<summary><b>Where it's headed</b></summary>
-<br>
-
-- **A brain that compounds.** A ledger of what it was told, a log of every decision and a library of what worked. Every answer shows what it drew on, and every correction makes the next answer better.
-- **It listens, too.** Meetings and sales calls feed the same brain, so advice is built on what customers actually say.
-- **Numbers you can feel.** The funnel, the ribbons, the planets and the flight path turn a dashboard into a scene you read in a second.
-- **Every role, one place.** Analyst, strategist, copywriter, media buyer: each is a role Apollo plays inside a workflow.
-- **Better models, for free.** The intelligence lives in the scaffolding, not in one model. When a stronger model ships, all of Apollo gets smarter the same day.
-</details>
 
 <details>
 <summary><b>Under the hood</b></summary>
