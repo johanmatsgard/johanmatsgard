@@ -20,14 +20,15 @@ Before Elvy I spent many years on strategy, growth and digital transformation fo
 
 <img src="assets/elvy-hero.webp" alt="elvyenergy.com: 4.5× the conversion. A new site on a new design system, then one tested change at a time." width="100%">
 
-<img src="assets/elvy-proof.webp" alt="4.5× the conversion, faster changes with no CMS, always on brand, measured honestly." width="100%">
+<img src="assets/elvy-proof.webp" alt="4.5× the conversion, no CMS, always on brand, and one connected journey from onboarding." width="100%">
 
 The new site went live on 10 July, built on a new design system: made in Figma, then turned into tokens, components and code. Since launch I have run it end to end: new pages and designs, SEO, conversion work, content, tracking, and the connections to Apollo and our sales tools.
 
 Conversion more than doubled in the first month. Then it kept climbing, one tested change at a time. Today the site converts **4.5× better** than the old one did, with brand-awareness campaigns left out.
 
 - **Built for campaigns.** The site is wired to Apollo and our other tools, so a new campaign gets its own landing page fast, with tracking from day one.
-- **Speed to lead.** Every new lead gets a call within five minutes, and quiet leads get a planned follow-up.
+- **One journey.** The onboarding flow looks up your house from the address. It is the start of one connected experience, from the first visit to the offer and on into the Elvy app.
+- **No CMS.** Every page is code, managed through Claude Code. Ask for a change and get a preview link, checked before it goes live.
 - **Always on brand.** Every page is built from one design system, so new pages look right the first time.
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/uplift-dark.webp"><img src="assets/uplift-light.webp" alt="Conversion rate: 4.5× the old site, with brand-awareness campaigns left out." width="100%"></picture>
@@ -51,7 +52,7 @@ Conversion more than doubled in the first month. Then it kept climbing, one test
 - **Styling is never invented.** All tokens live in one file. A lint rule blocks any value that is not a token, so no person or model can slip in a one-off colour or margin.
 - **No CMS.** You ask an AI coding agent for a change and drop in the images. It edits the right file and opens a pull request with a preview link. Nothing goes live on its own.
 - **One gate for every change.** Formatting, lint, type check, tests, contrast and document structure, and a check that the generated CSS still matches the tokens.
-- **Speed to lead.** A lead is only worth something if sales calls back fast. Every new lead is contacted within five minutes, sales works from a call queue, and quiet leads get a 60-day follow-up in HubSpot.
+- **Leads flow straight on.** Each lead from the onboarding flow goes to sales with the house data attached, and quiet leads get a planned follow-up in HubSpot.
 - **Measured honestly.** Brand-awareness traffic is read apart from performance traffic, so a big brand push never hides a real gain.
 
 Stack: Next.js (App Router), React 19, TypeScript, Tailwind v4, next-intl, React Email, Vercel. [Full write-up](https://github.com/johanmatsgard/elvy-web-case-study)
