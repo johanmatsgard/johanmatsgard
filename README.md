@@ -20,6 +20,8 @@ Before Elvy I spent many years on strategy, growth and digital transformation fo
 
 <img src="assets/elvy-hero.webp" alt="elvyenergy.com: 4.5× the conversion. A new site on a new design system, then one tested change at a time." width="100%">
 
+<img src="assets/elvy-proof.webp" alt="4.5× the conversion, faster changes with no CMS, always on brand, measured honestly." width="100%">
+
 The new site went live on 10 July, built on a new design system: made in Figma, then turned into tokens, components and code. Since launch I have run it. New pages and designs, SEO, conversion work, content, tracking, and the connections to our sales tools.
 
 Conversion more than doubled in the first month. Then it kept climbing, one tested change at a time. Today the site converts 4.5× better than the old one did, with brand-awareness campaigns left out.
@@ -51,7 +53,7 @@ Stack: Next.js (App Router), React 19, TypeScript, Tailwind v4, next-intl, React
 
 <img src="assets/apollo-hero.webp" alt="A small team. The reach of a big one. The Apollo ship flies from Earth toward the Moon." width="100%">
 
-<img src="assets/apollo-proof.webp" alt="Minutes to answer a customer. Every meeting ends as tasks. Every week more areas move to autopilot." width="100%">
+<img src="assets/apollo-proof.webp" alt="Faster, clearer, lighter, smarter: answers day and night, one view of the goal, meetings become tasks, every call is scored." width="100%">
 
 **Apollo takes the routine work, so the team spends its time on ideas, bold tests and customers. Every week it carries a little more.**
 
@@ -108,7 +110,9 @@ Stack: Next.js 16, Supabase (EU), Inngest, Anthropic SDK, Vercel. [Full write-up
 
 <img src="assets/vaken-hero.webp" alt="vaken: stays awake, so you don't have to. It stops git reset --hard and waits for your OK." width="100%">
 
-<img src="assets/vaken-proof.webp" alt="75% less context on large, long-running sessions. Risky commands wait for your OK. 10 sessions, one calm pane." width="100%">
+<img src="assets/vaken-proof.webp" alt="About 70% lighter long sessions, safer commands, one pane for ten sessions, and private by design." width="100%">
+
+<sub>How we measured "about 70% lighter": the median of 361 compactions of sessions larger than 150,000 tokens in my own Claude Code use, October 2026. Context before the compaction against the first request after it.</sub>
 
 Run ten Claude Code sessions and still know exactly where each one stands. vaken is my first public plugin. It looks like part of the app, stops risky steps like `git reset --hard` when Claude Code would not ask first, and keeps all its data on your computer.
 
