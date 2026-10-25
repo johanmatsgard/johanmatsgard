@@ -2,7 +2,7 @@
 
 <p align="center"><a href="https://www.linkedin.com/in/johanmatsgard/">LinkedIn</a> · <a href="https://github.com/johanmatsgard/vaken">vaken</a> · <a href="https://www.elvyenergy.com/design-system">Elvy design system</a></p>
 
-**I'm a marketer who builds.** I run brand and growth at [Elvy](https://www.elvyenergy.com/) in Stockholm, and I design, build and run the AI systems behind it. Since May I have shipped three: elvyenergy.com, which now converts 4.5× better than the old site; Apollo, an AI marketing crew that makes a small team work like a big one; and vaken, open-source mission control for Claude Code. More than 6,300 commits, all made with Claude Code. I set the goal, orchestrate the agents, review every change and ship.
+**I build AI systems that run growth, and I lead them like an engineering team.** Most marketers brief engineers. I direct the agents that write the code, and I own the result. Since May: elvyenergy.com, now 4.5× the old site's conversion; Apollo, Elvy's AI marketing crew, which I designed; and vaken, open-source mission control for Claude Code, which I built. More than 6,300 commits from many agents running in parallel, planned and reviewed by me. I run brand and growth at Elvy in Stockholm.
 
 Before Elvy I spent many years on strategy, growth and digital transformation for global brands and fast-growing companies, B2B and B2C. I still advise founders and investors on growth.
 
@@ -10,26 +10,26 @@ Before Elvy I spent many years on strategy, growth and digital transformation fo
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="#elvyenergycom-45-the-conversion"><img src="assets/featured-elvy.webp" alt="elvyenergy.com: 4.5× the conversion"></a><br><b>elvyenergy.com</b><br>I run the site end to end, one tested change at a time. Now 4.5× the old site's conversion. <a href="#elvyenergycom-45-the-conversion">See the work</a></td>
-<td width="33%" valign="top"><a href="#apollo-ai-that-takes-elvys-marketing-further"><img src="assets/featured-apollo.webp" alt="Apollo: a small team with the reach of a big one"></a><br><b>Apollo</b><br>Elvy's AI marketing crew, designed and built by me. About 6× more output per person, by our estimate. <a href="#apollo-ai-that-takes-elvys-marketing-further">See Apollo</a></td>
-<td width="33%" valign="top"><a href="#vaken-mission-control-for-claude-code"><img src="assets/featured-vaken.webp" alt="vaken: mission control for Claude Code"></a><br><b>vaken</b><br>My open-source mission control for Claude Code. About 70% lighter long sessions, and a stop before risky steps. <a href="#vaken-mission-control-for-claude-code">See vaken</a></td>
+<td width="33%" valign="top"><a href="#elvyenergycom-45-the-conversion-run-as-code"><img src="assets/featured-elvy.webp" alt="elvyenergy.com: 4.5× the conversion"></a><br><b>elvyenergy.com</b><br>Every page is code. Every change is tested. Now 4.5× the old site's conversion. <a href="#elvyenergycom-45-the-conversion-run-as-code">See the work</a></td>
+<td width="33%" valign="top"><a href="#apollo-a-small-team-with-the-reach-of-a-big-one"><img src="assets/featured-apollo.webp" alt="Apollo: a small team with the reach of a big one"></a><br><b>Apollo</b><br>Elvy's AI marketing crew, designed by me. About 6× more output per person, our own estimate. <a href="#apollo-a-small-team-with-the-reach-of-a-big-one">See Apollo</a></td>
+<td width="33%" valign="top"><a href="#vaken-mission-control-for-claude-code"><img src="assets/featured-vaken.webp" alt="vaken: mission control for Claude Code"></a><br><b>vaken</b><br>Open-source mission control for Claude Code. Long-session context about 70% smaller, and a stop before risky commands. <a href="#vaken-mission-control-for-claude-code">See vaken</a></td>
 </tr>
 </table>
 
-## elvyenergy.com: 4.5× the conversion
+## elvyenergy.com: 4.5× the conversion, run as code
 
 <img src="assets/elvy-hero.webp" alt="elvyenergy.com: 4.5× the conversion. A new site on a new design system, then one tested change at a time." width="100%">
 
-<img src="assets/elvy-proof.webp" alt="4.5× the conversion, no CMS, always on brand, and one connected journey from onboarding." width="100%">
+<img src="assets/elvy-proof.webp" alt="4.5× the conversion, no CMS, one journey from first visit to the Elvy app, and one gate for every change." width="100%">
 
-The new site went live on 10 July, built on a new design system: made in Figma, then turned into tokens, components and code. Since launch I have run it end to end: new pages and designs, SEO, conversion work, content, tracking, and the connections to Apollo and our sales tools.
+The new site, built on a new design system, went live on 10 July. I have run it end to end since: pages, SEO, conversion, content, tracking, and the links to Apollo and our sales tools.
 
-Conversion more than doubled in the first month. Then it kept climbing, one tested change at a time. Today the site converts **4.5× better** than the old one did, with brand-awareness campaigns left out.
+Every change ships the same way: an agent edits the code, opens a pull request with a preview, and a gate checks it. Conversion more than doubled in the first month, then kept climbing. Today the site converts **4.5× better** than the old one, with brand campaigns left out.
 
-- **Built for campaigns.** The site is wired to Apollo and our other tools, so a new campaign gets its own landing page fast, with tracking from day one.
-- **One journey.** The onboarding flow looks up your house from the address. It is the start of one connected experience, from the first visit to the offer and on into the Elvy app.
-- **No CMS.** Every page is code, managed through Claude Code. Ask for a change and get a preview link, checked before it goes live.
-- **Always on brand.** Every page is built from one design system, so new pages look right the first time.
+- **No CMS.** Every page is code, managed through Claude Code. Marketing moves without waiting in a developer queue.
+- **One journey.** Onboarding looks up the house from the address, so visitors start with their own home. The path runs on to the offer and the Elvy app.
+- **One gate.** No change merges without lint, types, tests, contrast and a token check. Off-brand styling cannot slip in.
+- **Built for campaigns.** Wired to Apollo: a new campaign gets its own landing page fast, tracked from day one.
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/uplift-dark.webp"><img src="assets/uplift-light.webp" alt="Conversion rate: 4.5× the old site, with brand-awareness campaigns left out." width="100%"></picture>
 
@@ -58,15 +58,15 @@ Conversion more than doubled in the first month. Then it kept climbing, one test
 Stack: Next.js (App Router), React 19, TypeScript, Tailwind v4, next-intl, React Email, Vercel. [Full write-up](https://github.com/johanmatsgard/elvy-web-case-study)
 </details>
 
-## Apollo: AI that takes Elvy's marketing further
+## Apollo: a small team with the reach of a big one
 
 <img src="assets/apollo-hero.webp" alt="A small team. The reach of a big one. The Apollo ship flies from Earth toward the Moon." width="100%">
 
-<img src="assets/apollo-proof.webp" alt="About 6× more output per person by our own estimate, proactive, fast to react, and better calls." width="100%">
+<img src="assets/apollo-proof.webp" alt="About 6× more output per person by our own estimate, spots things first, better calls, more reach." width="100%">
 
-**We estimate Apollo makes our marketing team about 6× more productive.** It takes the routine work, spots what matters before anyone asks, and reacts while a moment still matters. Every week it carries a little more, and the team spends its time on ideas, bold tests and customers.
+**Apollo makes a small team work like a big one: about 6× more output per person, by our own estimate.**
 
-Apollo started as my own project. I designed it and built the first version alone: one marketing lead with the output of a full in-house team plus a performance agency. Now a team builds it with me, and I set the direction. The aim: automate everything that can be automated, make every decision that is left a smarter one, and put every hour the team has where it gives the most lift.
+I designed Apollo and built the first version alone. Now a team builds it with me, and I set the direction. Apollo spots the angle before anyone asks, answers every customer in minutes, and reacts while a moment still matters. Every ad channel sits next to signed customers, so each call rests on real numbers, and every recommendation gets a verdict. As Elvy grows, the same team covers more ground, so we hire for ideas, not for routine. People keep the ideas, the bold tests and the customers.
 
 <img src="assets/apollo-climb.webp" alt="Every week, more of marketing flies itself. Areas move from Apollo watches, to Apollo drafts, to Apollo runs it." width="100%">
 
@@ -119,11 +119,11 @@ Stack: Next.js 16, Supabase (EU), Inngest, Anthropic SDK, Vercel. [Full write-up
 
 <img src="assets/vaken-hero.webp" alt="vaken: stays awake, so you don't have to. It stops git reset --hard and waits for your OK." width="100%">
 
-<img src="assets/vaken-proof.webp" alt="About 70% lighter long sessions, safer commands, one pane for ten sessions, and private by design." width="100%">
+<img src="assets/vaken-proof.webp" alt="About 70% smaller context on long sessions, a safety stop, done-checks, and private by design." width="100%">
 
 <sub>How we measured "about 70% lighter": the median of 361 compactions of sessions larger than 150,000 tokens in my own Claude Code use, October 2026. Context before the compaction against the first request after it.</sub>
 
-Run ten Claude Code sessions and still know exactly where each one stands. I designed and built vaken on my own and released it as open source: more than 160 releases in its first two weeks. It looks like part of the app, stops risky steps like `git reset --hard` when Claude Code would not ask first, makes long sessions lighter, and keeps all its data on your computer.
+Run ten Claude Code sessions and still know exactly where each one stands. vaken stops risky commands like `git reset --hard` and waits for your OK when Claude Code would not ask first, with undo. It compacts long sessions at a calm moment, so the context ends up about 70% smaller. I designed and built it alone with agents I plan and review, and released it as open source: 160+ releases in its first two weeks. No server, no telemetry.
 
 <table>
 <tr><td width="50%"><img src="assets/vaken-needs.webp" alt="Know what needs you, at a glance"></td><td width="50%"><img src="assets/vaken-limits.webp" alt="Never hit your limit by surprise"></td></tr>
