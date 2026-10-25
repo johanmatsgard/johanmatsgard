@@ -2,11 +2,11 @@
 
 <p align="center"><a href="https://www.linkedin.com/in/johanmatsgard/">LinkedIn</a> · <a href="https://github.com/johanmatsgard/vaken">vaken</a> · <a href="https://www.elvyenergy.com/design-system">Elvy design system</a></p>
 
-**I lead growth and brand, and I build the AI that scales it.** Today I am Head of Marketing at Elvy in Stockholm, part of its leadership team, where I lead a small team. Since I joined in March, leads from partners and bought lists fell from 85% to 6% of the total, and leads from our own channels per day grew about 9×. Before that, I co-founded Digital Fans and led it as Nordic CEO for twelve years. We combined with NORD DDB to become a group of 300+ people across the four Nordic countries, where I also led growth strategy and digital transformation. Along the way my teams and I have worked with McDonald's, Vattenfall, Klarna, Nordea, SKF, Volkswagen, Telenor, Verifone, MTG, ABBA The Museum and UN Women, among them some of the region's award-winning campaigns.
+**I lead growth and brand, and I build the AI that scales it.** Today I am Head of Marketing at Elvy in Stockholm, part of its leadership team, where I lead a small team. Since I joined in March, our website conversion rate grew 4.5× and leads from our own channels per day grew 9×. Before that, I co-founded Digital Fans and led it as Nordic CEO for twelve years. We combined with NORD DDB to become a group of 300+ people across the four Nordic countries, where I also led growth strategy and digital transformation. Along the way my teams and I have worked with McDonald's, Vattenfall, Klarna, Nordea, SKF, Volkswagen Group, Telenor, Verifone, MTG, ABBA The Museum and many more exciting brands, among them some of the region's award-winning campaigns.
 
 **What I lead.** Brand, growth and demand generation at Elvy: positioning, every acquisition channel, partnerships, and the customer journey from first visit to signed contract. I own the growth numbers on the leadership team.
 
-I direct the AI agents that write the code, and I own the result. Since May I have shipped three systems: elvyenergy.com, which converts 4.5× better than the old site; Apollo, the AI marketing crew I build for our team; and vaken, open-source mission control for Claude Code. I set the plan, agents build, a gate checks every change, and nothing ships without my sign-off.
+I direct the AI agents that write the code, and I own the result. Since joining I have shipped three systems: elvyenergy.com, which converts 4.5× better than the old site; Apollo, the AI marketing crew I build for our team; and vaken, open-source mission control for Claude Code. I set the plan, agents build, a gate checks every change, and nothing ships without my sign-off.
 
 ### Featured
 
