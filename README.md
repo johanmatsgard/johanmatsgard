@@ -2,7 +2,7 @@
 
 <p align="center"><a href="https://www.linkedin.com/in/johanmatsgard/">LinkedIn</a> · <a href="https://github.com/johanmatsgard/vaken">vaken</a> · <a href="https://www.elvyenergy.com/design-system">Elvy design system</a></p>
 
-**20 years in growth and brand. Now I build the AI that runs it.** Today I lead marketing at C-level at Elvy in Stockholm. Before that, I co-founded Digital Fans and ran it as Nordic CEO for twelve years, and led growth strategy and digital transformation at NORD DDB. Along the way my teams and I have worked with McDonald's, Vattenfall, Klarna, Nordea, SKF, Volkswagen, Telenor, Verifone, MTG and ABBA The Museum. Since 2018 I have also advised Nordic Equity Group and its portfolio companies.
+**20 years in growth and brand. Now I build the AI that runs it.** Today I lead marketing at C-level at Elvy in Stockholm. Before that, I co-founded Digital Fans and ran it as Nordic CEO for twelve years, and led growth strategy and digital transformation at NORD DDB. Along the way my teams and I have worked with McDonald's, Vattenfall, Klarna, Nordea, SKF, Volkswagen, Telenor, Verifone, MTG, ABBA The Museum and UN Women. Since 2018 I have also advised Nordic Equity Group and its portfolio companies.
 
 Most marketers brief engineers. I direct the AI agents that write the code, and I own the result. Since May I have shipped three systems: elvyenergy.com, which converts 4.5× better than the old site; Apollo, the AI marketing crew I build for our team; and vaken, open-source mission control for Claude Code. That is more than 6,300 commits, each one planned and reviewed by me.
 
