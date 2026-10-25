@@ -2,7 +2,7 @@
 
 <p align="center"><a href="https://www.linkedin.com/in/johanmatsgard/">LinkedIn</a> · <a href="https://github.com/johanmatsgard/vaken">vaken</a> · <a href="https://www.elvyenergy.com/design-system">Elvy design system</a></p>
 
-**I'm a marketer who builds.** I run brand and growth at [Elvy](https://www.elvyenergy.com/) in Stockholm, and I build the AI that takes it further. Since May: a website that converts 4.5× better than the old one, Apollo, an AI marketing crew that carries more of the work every week, and vaken, an open-source plugin for Claude Code. More than 6,300 commits, all made with Claude Code, by someone who is not an engineer.
+**I'm a marketer who builds.** I run brand and growth at [Elvy](https://www.elvyenergy.com/) in Stockholm, and I design, build and run the AI systems behind it. Since May I have shipped three: elvyenergy.com, which now converts 4.5× better than the old site; Apollo, an AI marketing crew that makes a small team work like a big one; and vaken, open-source mission control for Claude Code. More than 6,300 commits, all made with Claude Code. I set the goal, orchestrate the agents, review every change and ship.
 
 Before Elvy I spent many years on strategy, growth and digital transformation for global brands and fast-growing companies, B2B and B2C. I still advise founders and investors on growth.
 
@@ -22,9 +22,9 @@ Before Elvy I spent many years on strategy, growth and digital transformation fo
 
 <img src="assets/elvy-proof.webp" alt="4.5× the conversion, faster changes with no CMS, always on brand, measured honestly." width="100%">
 
-The new site went live on 10 July, built on a new design system: made in Figma, then turned into tokens, components and code. Since launch I have run it. New pages and designs, SEO, conversion work, content, tracking, and the connections to our sales tools.
+The new site went live on 10 July, built on a new design system: made in Figma, then turned into tokens, components and code. Since launch I have run it end to end: new pages and designs, SEO, conversion work, content, tracking, and the connections to Apollo and our sales tools.
 
-Conversion more than doubled in the first month. Then it kept climbing, one tested change at a time. Today the site converts 4.5× better than the old one did, with brand-awareness campaigns left out.
+Conversion more than doubled in the first month. Then it kept climbing, one tested change at a time. Today the site converts **4.5× better** than the old one did, with brand-awareness campaigns left out.
 
 - **Built for campaigns.** The site is wired to Apollo and our other tools, so a new campaign gets its own landing page fast, with tracking from day one.
 - **Speed to lead.** Every new lead gets a call within five minutes, and quiet leads get a planned follow-up.
@@ -61,11 +61,11 @@ Stack: Next.js (App Router), React 19, TypeScript, Tailwind v4, next-intl, React
 
 <img src="assets/apollo-hero.webp" alt="A small team. The reach of a big one. The Apollo ship flies from Earth toward the Moon." width="100%">
 
-<img src="assets/apollo-proof.webp" alt="Faster, clearer, lighter, smarter: answers day and night, one view of the goal, meetings become tasks, every call is scored." width="100%">
+<img src="assets/apollo-proof.webp" alt="About 6× more output per person by our own estimate, proactive, fast to react, and better calls." width="100%">
 
-**Apollo takes the routine work, so the team spends its time on ideas, bold tests and customers. Every week it carries a little more.**
+**We estimate Apollo makes our marketing team about 6× more productive.** It takes the routine work, spots what matters before anyone asks, and reacts while a moment still matters. Every week it carries a little more, and the team spends its time on ideas, bold tests and customers.
 
-Apollo started as my own project: one marketing lead with the output of a full in-house team plus a performance agency. Now a team builds it with me. The aim: automate everything that can be automated, so every hour the team has left goes where it gives the most lift.
+Apollo started as my own project. I designed it and built the first version alone: one marketing lead with the output of a full in-house team plus a performance agency. Now a team builds it with me, and I set the direction. The aim: automate everything that can be automated, make every decision that is left a smarter one, and put every hour the team has where it gives the most lift.
 
 <img src="assets/apollo-climb.webp" alt="Every week, more of marketing flies itself. Areas move from Apollo watches, to Apollo drafts, to Apollo runs it." width="100%">
 
@@ -108,7 +108,7 @@ Marketing is the first part of Elvy where we let AI take us this far. We approac
 - Meta, TikTok, Google and LinkedIn in one view, next to signed customers straight from the company's own data. Nobody types numbers in by hand.
 - Channels that count conversions differently are never ranked against each other.
 - Every recommendation gets a verdict: implemented, skipped or watching. Nothing is forgotten.
-- Built in Claude Code loops (ship, data, brain, adoption). Changes land on a preflight branch first and are merged by hand.
+- Built in Claude Code loops (ship, data, brain, adoption) that I orchestrate. Every change is reviewed by hand before it ships.
 - The new look: a calm night sky with Earth and the Moon, built to feel like a ship's computer.
 
 Stack: Next.js 16, Supabase (EU), Inngest, Anthropic SDK, Vercel. [Full write-up](https://github.com/johanmatsgard/apollo-case-study)
@@ -122,7 +122,7 @@ Stack: Next.js 16, Supabase (EU), Inngest, Anthropic SDK, Vercel. [Full write-up
 
 <sub>How we measured "about 70% lighter": the median of 361 compactions of sessions larger than 150,000 tokens in my own Claude Code use, October 2026. Context before the compaction against the first request after it.</sub>
 
-Run ten Claude Code sessions and still know exactly where each one stands. vaken is my first public plugin. It looks like part of the app, stops risky steps like `git reset --hard` when Claude Code would not ask first, and keeps all its data on your computer.
+Run ten Claude Code sessions and still know exactly where each one stands. I designed and built vaken on my own and released it as open source: more than 160 releases in its first two weeks. It looks like part of the app, stops risky steps like `git reset --hard` when Claude Code would not ask first, makes long sessions lighter, and keeps all its data on your computer.
 
 <table>
 <tr><td width="50%"><img src="assets/vaken-needs.webp" alt="Know what needs you, at a glance"></td><td width="50%"><img src="assets/vaken-limits.webp" alt="Never hit your limit by surprise"></td></tr>
@@ -138,6 +138,7 @@ Run ten Claude Code sessions and still know exactly where each one stands. vaken
 - **Safety guards.** It reads each tool call before it runs. Deletes, force-pushes and wipes stop and wait for your OK when Claude Code would not ask first.
 - **Private by design.** No account, no server. Everything stays in a local file on your computer.
 - **Tested in CI.** Every pull request runs the checks on Mac and Windows before it can merge.
+- **Built by one person.** More than 1,800 commits, made with Claude Code agents that I plan, run and review.
 </details>
 
 Install it in ten seconds:
@@ -151,7 +152,7 @@ claude plugin install vaken@vaken
 
 ## Also at Elvy
 
-**Our customer app.** I helped design and build the Elvy app, and from here I take a much bigger part in it. I also lifted the website's design system into a kit, so the customer portal shares the site's look.
+**The Elvy app.** I helped design and build our customer app, and from here I take a much bigger part in it. I also lifted the website's design system into a kit, so the app and the customer portal share the site's look. More on the app here soon.
 
 ## How I work
 
